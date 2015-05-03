@@ -1,0 +1,76 @@
+/**
+ * Footer Style Sheet
+ * Iframe-Site
+ *
+ * Copyright (c) 2015. by Way2CU, http://way2cu.com
+ * Authors:Tal Reznic
+ */
+
+ footer {
+ 	display: block;
+ 	text-align: center;
+	padding:50px calc((100vw - 1200px) / 2);
+	background-image: url(../images/footer/texture.png);
+	background-repeat: repeat;
+	background-position: center center;
+	background-size: 500px 500px;
+ }
+
+footer article.map_article {
+	display: inline-block;
+	vertical-align: top;
+	width: 33.3%;
+}
+
+footer article.map_article h2 {
+	display: block;
+	text-align: left;
+	color:white;
+}
+
+footer article.map_article p img {
+	display: block;
+	width: 100%;
+}
+
+footer article.info_article {
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+	width: 33.3%;
+}
+
+footer article.info_article h2 {
+	text-align: left;
+	color:white;
+}
+
+footer article.info_article p {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: left;
+	color:white;
+}
+
+footer article.info_article a.phone {
+	display: inline-block;
+	text-align: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 60px;
+	color: white;
+	text-decoration: none;
+	border: 2px solid #11b260;
+	background-position: 90% center;
+}
+
+
+footer > div {
+	display: inline-block;
+	vertical-align: top;
+	width: 33.3%;
+}
+
+
