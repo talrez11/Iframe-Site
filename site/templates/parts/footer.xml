@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../units/schema/language.dtd">
+<document>
+	<footer>
+		<cms:module
+			name="articles"
+			action="show"
+			text_id="map_article"
+			template="parts/article.xml"
+			/>
+
+		<cms:module
+			name="articles"
+			action="show"
+			text_id="info_article"
+			template="parts/article_info.xml"
+			/>
+
+		<div class="form_wrap">
+			<h2><cms:text constant="form_title"/></h2>
+			<p><cms:text constant="form_desc"/></p>
+			<cms:module
+				name="contact_form"
+				action="show"
+				text_id="contact_form"
+				/>
+		</div>
+	</footer>
+</document>

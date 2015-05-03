@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../units/schema/language.dtd">
+<document>
+	<header
+		class="$section == 'home' ? 'home' : false"
+		cms:optional="class"
+		>
+		<nav>
+			<a href="" class="logo"></a>
+			<a
+				class="$section == 'gallery' ? 'active' : false"
+				href="url_Make('', 'gallery')"
+				cms:eval="href"
+				cms:optional="class"
+				>
+				<cms:text constant="menu_gallery"/>
+			</a>
+
+			<a
+				class="$section == 'designs' ? 'active' : false"
+				href="url_Make('', 'designs')"
+				cms:eval="href"
+				cms:optional="class"
+				>
+				<cms:text constant="menu_designs"/>
+			</a>
+
+			<a
+				class="$section == 'showrooms' ? 'active' : false"
+				href="url_Make('', 'showrooms')"
+				cms:eval="href"
+				cms:optional="class"
+				>
+				<cms:text constant="menu_showrooms"/>
+			</a>
+
+			<a
+				class="$section == 'kitchens' ? 'active' : false"
+				href="url_Make('', 'kitchens')"
+				cms:eval="href"
+				cms:optional="class"
+				>
+				<cms:text constant="menu_kitchens"/>
+			</a>
+
+			<a
+				class="$section == 'indoor' ? 'active' : false"
+				href="url_Make('', 'indoor')"
+				cms:eval="href"
+				cms:optional="class"
+				>
+				<cms:text constant="menu_indoor"/>
+			</a>
+
+			<a
+				class="$section == 'outdoor' ? 'active' : false"
+				href="url_Make('', 'outdoor')"
+				cms:eval="href"
+				cms:optional="class"
+				>
+				<cms:text constant="menu_outdoor"/>
+			</a>
+
+			<a
+				class="$section == 'about_us' ? 'active' : false"
+				href="url_Make('', 'about_us')"
+				cms:eval="href"
+				cms:optional="class"
+				>
+				<cms:text constant="menu_about_us"/>
+			</a>
+
+			<a
+				class="$section == 'contact' ? 'active' : false"
+				href="url_Make('', 'contact')"
+				cms:eval="href"
+				cms:optional="class"
+				>
+				<cms:text constant="menu_contact"/>
+			</a>
+
+			<a
+				href="'tel:'.Language::getText('number')"
+				class="phone"
+				cms:eval="href,class"
+				>
+				<cms:text constant="number"/>
+			</a>
+		</nav>
+
+
+	</header>
+</document>

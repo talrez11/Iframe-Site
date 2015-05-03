@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../../../units/schema/template.dtd">
+<document>
+	<article class="$params['text_id']" cms:eval="class" >
+		<h2><cms:var name="$params['title'][$language]"/></h2>
+		<cms:markdown param="content" multilanguage="yes"/>
+		<p><cms:text constant="social"/></p>
+		<span></span>
+		<span></span>
+		<span></span>
+		<a
+			href="'tel:'.Language::getText('number')"
+			class="phone"
+			cms:eval="href,class"
+			>
+			<cms:text constant="number"/>
+		</a>
+	</article>
+</document>
