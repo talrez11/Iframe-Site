@@ -4,4 +4,28 @@
 	<section name="home">
 		<language name="all" file="home.xml" />
 	</section>
+	<section name="gallery">
+		<language name="all" file="home.xml" />
+	</section>
+	<section name="designs">
+		<language name="all" file="home.xml" />
+	</section>
+	<section name="showrooms">
+		<language name="all" file="home.xml" />
+	</section>
+	<section name="kitchens">
+		<language name="all" file="home.xml" />
+	</section>
+	<section name="indoor">
+		<language name="all" file="home.xml" />
+	</section>
+	<section name="outdoor">
+		<language name="all" file="home.xml" />
+	</section>
+	<section name="about_us">
+		<language name="all" file="home.xml" />
+	</section>
+	<section name="contact">
+		<language name="all" file="home.xml" />
+	</section>
 </document>
