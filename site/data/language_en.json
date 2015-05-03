@@ -1,3 +1,16 @@
 {
-    "site_title": "Site title"
+    "site_title": "Iframe-Site",
+    "number":"1-844-9-HIFRAME",
+    "menu_gallery":"Gallery",
+    "menu_designs":"Designs",
+    "menu_showrooms":"Showrooms",
+    "menu_kitchens":"Kitchen & bath",
+    "menu_indoor":"Indoor",
+    "menu_outdoor":"Outdoor",
+    "menu_about_us":"About Us",
+    "menu_contact":"Contact Us",
+    "form_title":"CONTACT US NOW",
+    "form_desc":"Please leave us your details and we will get back to your shortly",
+    "social":"Social media share:",
+    "send":"SUBMIT"
 }
