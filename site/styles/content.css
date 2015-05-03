@@ -1,0 +1,13 @@
+/**
+ * Main Style Sheet
+ * Iframe-Site
+ *
+ * Copyright (c) 2015. by Way2CU, http://way2cu.com
+ * Authors:Tal Reznic
+ */
+
+ /*RESET*/
+h1,h2,h3,h4,h5,h6,p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
