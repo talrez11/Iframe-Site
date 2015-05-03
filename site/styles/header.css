@@ -1,0 +1,65 @@
+/**
+ * Header Style Sheet
+ * Iframe-Site
+ *
+ * Copyright (c) 2015. by Way2CU, http://way2cu.com
+ * Authors:Tal Reznic
+ */
+
+header {
+	display: block;
+	padding:20px calc((100vw - 1200px) / 2);
+	background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}
+
+header nav {
+	display: block;
+	text-align: center;
+}
+
+header nav a {
+	display: inline-block;
+	vertical-align: middle;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-decoration: none;
+	color:#7e8b8c;
+	transition:all 0.3s;
+}
+
+header nav a:hover {
+	color:#11b260;
+}
+
+header nav a.active {
+	color:#11b260;
+}
+
+a.logo {
+	display: inline-block;
+	vertical-align: middle;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	background-image: url(../images/header/logo.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 208px 45px;
+	width: 208px;
+	height: 45px;
+}
+
+a.phone {
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 35px;
+	background-image: url(../images/header/phone-icon-green.svg);
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 25px 25px;
+	font-size: 1.2em;
+	font-weight: 700;
+	color:black;
+}
