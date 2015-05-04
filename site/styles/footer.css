@@ -33,7 +33,7 @@ footer article.map_article h2 {
 
 footer article.map_article p {
 	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-bottom:0px;
 }
 
 footer article.map_article p img {
@@ -51,6 +51,14 @@ footer article.info_article {
 }
 
 footer article.info_article h2 {
+	text-align: left;
+	color:white;
+}
+
+footer article.info_article h3 {
+	display: block;
+	padding-top: 40px;
+	padding-bottom: 10px;
 	text-align: left;
 	color:white;
 }
@@ -74,12 +82,28 @@ a.social {
 	height: 30px;
 }
 
+a.social:first-of-type {
+	padding-left: 0px;
+}
+
 a.social svg path {
 	fill:white;
 }
 
-a.social:hover svg path {
-	fill:blue;
+a.social:nth-of-type(1):hover svg path {
+	fill:#3b5998;
+}
+
+a.social:nth-of-type(2):hover svg path {
+	fill:#dd4b39;
+}
+
+a.social:nth-of-type(3):hover svg path {
+	fill:#0077B5;
+}
+
+a.social:nth-of-type(4):hover svg path {
+	fill:#55ACEE;
 }
 
 
@@ -97,6 +121,11 @@ footer article.info_article a.phone {
 	text-decoration: none;
 	border: 2px solid #11b260;
 	background-position: 90% center;
+	transition:all 0.3s;
+}
+
+footer article.info_article a.phone:hover {
+	background-color: rgba(255, 255, 255, 0.2);
 }
 
 
@@ -130,56 +159,63 @@ form {
 form label.radio {
 	display: inline-block;
 	vertical-align: middle;
+	width: 50%;
 }
+
+form label.radio input {
+	display: none;
+	vertical-align: middle;
+	width: 13%;
+}
+
 
 form label.radio span {
 	display: inline-block;
 	vertical-align: middle;
 	position: relative;
-	width: 100px;
+	width: 50%;
+}
+
+form label.radio:first-of-type span {
+	width: 40%;
+}
+
+form label.radio:last-of-type span {
+	width: 40%;
 }
 
 form label.radio span:before {
-	content: '';
-    display: inline-block;
-    vertical-align: baseline;
-    width: 0.6em;
-    height: 0.6em;
-    margin-right: 5px;
-    border: 3px solid white;
-    border-radius: 50%;
-    background-color: white;
-    box-shadow: 0px 0px 1px black;
-    line-height: 0px;
+	content: "";
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	margin-top: -5px;
+	left: 100%;
+	width: 5px;
+	height: 5px;
+	border: 3px solid white;
+	border-radius: 50%;
+	background-color: white;
+	box-shadow: 0px 0px 1px black;
 }
 
-form label.radio input {
-	display:block;
-	margin-left: 10px;
-	margin-right: 10px;
-	width: 30px;
+form label.radio input:checked + span:before {
+    background-color: #7f8c8d;
 }
 
-form label.radio input:checked +  span:before {
-	background-color: blue;
-}
 
 form label {
 	display: block;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 form label span {
-	display: inline-block;
-	vertical-align: middle;
+	display:block;
 	color:white;
-	width: 60px;
 }
 
 form label input {
-	display: inline-block;
-	vertical-align: middle;
+	display:block;
 	padding-top: 8px;
 	padding-bottom: 8px;
 	padding-left: 5px;
@@ -187,7 +223,7 @@ form label input {
 	color:black;
 	background-color:#ecf0f1;
 	border:1px solid #7f8c8d;
-	width: 250px;
+	width: 95%;
 	transition:all 0.3s;
 }
 
@@ -197,7 +233,7 @@ form label input:hover {
 
 form div.controls {
 	display: block;
-	padding-top: 10px;
+	padding-top: 20px;
 	padding-bottom: 10px;
 }
 
@@ -209,7 +245,7 @@ form div.controls button {
 	border: none;
 	color:white;
 	cursor: pointer;
-	width: 100%;
+	width: 33.3%;
 	transition:all 0.3s;
 }
 
