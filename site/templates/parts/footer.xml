@@ -25,5 +25,10 @@
 				text_id="contact_form"
 				/>
 		</div>
+
+		<div class="rights">
+			<span><cms:text constant="copyright"/></span>
+		</div>
+
 	</footer>
 </document>
