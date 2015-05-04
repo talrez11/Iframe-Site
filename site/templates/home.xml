@@ -11,6 +11,18 @@
 		<body class="$language_rtl ? 'rtl' : 'ltr'" cms:eval="class">
 			<cms:template file="parts/header.xml"/>
 
+			<div class="home_gallery">
+			<cms:module
+				name="gallery"
+				action="show_image_list"
+				group="home_page_gallery"
+				template="parts/home_page_gallery_image.xml"
+				cms:eval="group"
+				/>
+			</div>
+
+
+
 			<cms:template file="parts/footer.xml"/>
 		</body>
 	</html>
