@@ -1,0 +1,9 @@
+<document>
+	<figure data-image="$params['title'][$language]" cms:eval="data-image">
+		<img
+			src="$params['image']"
+			alt="$params['title'][$language]"
+			cms:eval="src,alt"
+		/>
+	</figure>
+</document>
