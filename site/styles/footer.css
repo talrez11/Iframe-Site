@@ -28,6 +28,7 @@ footer article.map_article {
 footer article.map_article h2 {
 	display: block;
 	text-align: left;
+	text-transform: uppercase;
 	color:white;
 }
 
@@ -52,6 +53,7 @@ footer article.info_article {
 
 footer article.info_article h2 {
 	text-align: left;
+	text-transform: uppercase;
 	color:white;
 }
 
@@ -141,6 +143,7 @@ footer div.form_wrap {
 footer div.form_wrap h2 {
 	display: block;
 	text-align: left;
+	text-transform: uppercase;
 	color:white;
 }
 
@@ -246,6 +249,7 @@ form div.controls button {
 	color:white;
 	cursor: pointer;
 	width: 33.3%;
+	text-transform: uppercase;
 	transition:all 0.3s;
 }
 
