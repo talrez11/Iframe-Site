@@ -16,7 +16,10 @@ header {
 }
 
 header nav {
-	display: block;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 35px;
+	padding-right: 35px;
 	text-align: center;
 }
 
@@ -56,6 +59,8 @@ a.logo {
 a.phone {
 	display: inline-block;
 	vertical-align: middle;
+	padding-top: 1em;
+	padding-bottom: 1em;
 	padding-right: 35px;
 	background-image: url(../images/header/phone-icon-green.svg);
 	background-repeat: no-repeat;
@@ -64,4 +69,9 @@ a.phone {
 	font-size: 1.2em;
 	font-weight: 700;
 	color:black;
+	transition:all 0.3s;
+}
+
+a.phone:hover {
+	color:#11b260;
 }
