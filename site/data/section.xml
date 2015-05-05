@@ -5,27 +5,27 @@
 		<language name="all" file="home.xml" />
 	</section>
 	<section name="gallery">
-		<language name="all" file="home.xml" />
+		<language name="all" file="gallery.xml" />
 	</section>
 	<section name="designs">
-		<language name="all" file="home.xml" />
+		<language name="all" file="designs.xml" />
 	</section>
 	<section name="showrooms">
-		<language name="all" file="home.xml" />
+		<language name="all" file="showrooms.xml" />
 	</section>
 	<section name="kitchens">
-		<language name="all" file="home.xml" />
+		<language name="all" file="kitchens.xml" />
 	</section>
 	<section name="indoor">
-		<language name="all" file="home.xml" />
+		<language name="all" file="indoor.xml" />
 	</section>
 	<section name="outdoor">
-		<language name="all" file="home.xml" />
+		<language name="all" file="outdoor.xml" />
 	</section>
 	<section name="about_us">
-		<language name="all" file="home.xml" />
+		<language name="all" file="about_us.xml" />
 	</section>
 	<section name="contact">
-		<language name="all" file="home.xml" />
+		<language name="all" file="contact.xml" />
 	</section>
 </document>
