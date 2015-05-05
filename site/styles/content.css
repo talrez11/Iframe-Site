@@ -21,13 +21,79 @@ div.home_gallery {
 	margin-left: auto;
 	margin-right: auto;
 	width: 1200px;
+	position: relative;
+}
+
+a.btnNext {
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	margin-top: -15px;
+	left: 25px;
+	width: 30px;
+	height: 30px;
+	border: 0px solid white;
+	border-left-width: 5px;
+	border-bottom-width: 5px;
+	filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 1));
+	-webkit-filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 1));
+	transform: rotate(45deg);
+	z-index: 50;
+}
+
+a.btnPrevious {
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	margin-top: -15px;
+	right: 25px;
+	width: 30px;
+	height: 30px;
+	border: 0px solid white;
+	border-right-width: 5px;
+	border-top-width: 5px;
+	filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 1));
+	-webkit-filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 1));
+	transform: rotate(45deg);
+	z-index: 50;
+}
+
+div.home_gallery figure {
+	display: block;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
 	min-height: 700px;
 	position: relative;
 }
 
-div.home_gallery figure {
-	margin-top: 0px;
-	margin-bottom: 0px;
+/*div.home_gallery figure:before {
+	content: "";
+	position: absolute;
+	bottom: -60px;
+	left: 0px;
+	background-image: url(../images/header/shadow-for-slider.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 1200px 60px;
+	width: 1200px;
+	height: 60px;
+}*/
+
+div.home_gallery figure:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -550px;
+	border-bottom: 50px solid rgb(0, 0, 0);
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	-webkit-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
+	height: 0;
+	width: 900px;
 }
 
 div.home_gallery figure:after {
@@ -40,6 +106,7 @@ div.home_gallery figure:after {
 	padding: 20px 30px;
 	width: 500px;
 	background-color: rgba(0, 0, 0, 0.6);
+	text-transform: uppercase;
 	color: white;
 	font-size: 2.4em;
 	font-weight: 700;
@@ -53,6 +120,188 @@ div.home_gallery img {
 	left: 0px;
 	width: 100%;
 	height: 100%;
+}
+
+div.home_gallery div.btnControls {
+	display: block;
+	text-align: center;
+	position: absolute;
+	bottom: 175px;
+	left: 50%;
+	margin-left: -75px;
+}
+
+div.home_gallery div.btnControls a {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 10px;
+	margin-left: 10px;
+	border: 2px solid white;
+	border-radius: 50%;
+	box-shadow: 0px 0px 0px 2px grey;
+	width: 15px;
+	height: 15px;
+	transition:all 0.3s;
+}
+
+div.home_gallery div.btnControls a:hover {
+	background-color: #4c4c4c;
+}
+
+div.home_gallery div.header_form {
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 100%;
+}
+
+div.home_gallery div.header_form > span {
+	display: block;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 1.4em;
+	color:white;
+}
+
+div.header_form form {
+	display: block;
+	padding-bottom: 10px;
+	text-align: center;
+	color:white;
+}
+
+div.header_form form label.radio {
+	display: block;
+	margin-bottom: 10px;
+	padding-left: 122px;
+	margin-right: auto;
+	text-align: left;
+	width: 190px;
+}
+
+div.header_form form label.radio input {
+	display: none;
+	vertical-align: middle;
+	width: 0px;
+}
+
+div.header_form form label.radio span  {
+	display: inline-block;
+	vertical-align: middle;
+	width: 100px;
+}
+
+
+div.header_form form label {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+div.header_form form label span {
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+div.header_form form label input {
+	display: inline-block;
+	vertical-align: middle;
+	width: 200px;
+}
+
+div.header_form form div.controls {
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+div.header_form form div.controls button {
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	background-color: #11b260;
+	border: none;
+	color: white;
+	cursor: pointer;
+	width: 100%;
+	text-transform: uppercase;
+	transition: all 0.3s;
+}
+
+div.header_form form div.controls button:hover {
+    background-color: #00803e;
+}
+
+div.features {
+	display: block;
+	text-align: center;
+ 	padding:50px calc((100vw - 1200px) / 2);
+
+}
+
+div.features a {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-decoration: none;
+	position: relative;
+
+}
+
+div.features a:hover span {
+	color: #11b260;
+	background-color: white;
+}
+
+div.features a h2 {
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	color: #33485d;
+}
+
+div.features a h4 {
+	display: block;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight: 400;
+	width: 300px;
+	color: #7e8b8c;
+}
+
+div.features a span {
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+  	background-color: rgba(255, 255, 255, 0.8);
+  	font-size: 1.3em;
+  	color: #33485d;
+  	font-weight: 700;
+  	text-transform: uppercase;
+  	transition:all 0.3s;
+}
+
+div.features a img {
+	display: block;
+	width: 350px;
 }
 
 
