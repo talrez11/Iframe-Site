@@ -12,6 +12,8 @@
 			<cms:template file="parts/header.xml"/>
 
 			<div class="home_gallery">
+			<a href="" class="btnNext"></a>
+			<a href="" class="btnPrevious"></a>
 			<cms:module
 				name="gallery"
 				action="show_image_list"
