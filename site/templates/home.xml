@@ -12,18 +12,44 @@
 			<cms:template file="parts/header.xml"/>
 
 			<div class="home_gallery">
-			<a href="" class="btnNext"></a>
-			<a href="" class="btnPrevious"></a>
-			<cms:module
-				name="gallery"
-				action="show_image_list"
-				group="home_page_gallery"
-				template="parts/home_page_gallery_image.xml"
-				cms:eval="group"
-				/>
+
+				<a href="" class="btnNext"></a>
+				<a href="" class="btnPrevious"></a>
+
+				<cms:module
+					name="gallery"
+					action="show_image_list"
+					group="home_page_gallery"
+					template="parts/home_page_gallery_image.xml"
+					cms:eval="group"
+					/>
+
+				<div class="btnControls">
+					<a href=""></a>
+					<a href=""></a>
+					<a href=""></a>
+					<a href=""></a>
+				</div>
+
+				<div class="header_form">
+					<span><cms:text constant="form_desc"/></span>
+					<cms:module
+						name="contact_form"
+						action="show"
+						text_id="contact_form"
+						/>
+				</div>
 			</div>
 
-
+			<div class="features">
+				<cms:module
+					name="gallery"
+					action="show_image_list"
+					group="features"
+					template="parts/features.xml"
+					cms:eval="group"
+					/>
+			</div>
 
 			<cms:template file="parts/footer.xml"/>
 		</body>
