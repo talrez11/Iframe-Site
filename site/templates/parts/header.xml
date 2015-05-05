@@ -2,8 +2,8 @@
 <!DOCTYPE document SYSTEM "../units/schema/language.dtd">
 <document>
 	<header>
+		<a href="" class="logo"></a>
 		<nav>
-			<a href="" class="logo"></a>
 			<a
 				class="$section == 'gallery' ? 'active' : false"
 				href="url_Make('', 'gallery')"
@@ -76,14 +76,14 @@
 				<cms:text constant="menu_contact"/>
 			</a>
 
-			<a
-				href="'tel:'.Language::getText('number')"
-				class="phone"
-				cms:eval="href,class"
-				>
-				<cms:text constant="number"/>
-			</a>
 		</nav>
+		<a
+			href="'tel:'.Language::getText('number')"
+			class="phone"
+			cms:eval="href,class"
+			>
+			<cms:text constant="number"/>
+		</a>
 
 
 	</header>
