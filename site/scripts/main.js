@@ -54,7 +54,7 @@ Site.on_load = function() {
 
 	var gallery = new Caracal.Gallery.Slider();
 	gallery
-		.images.set_container('figure')
+		.images.set_container('div.home_gallery figure')
 		.images.add('figure img.image')
 		.controls.attach_next('a.btnNext')
 		.controls.attach_previous('a.btnPrevious');
