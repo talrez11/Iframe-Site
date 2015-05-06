@@ -49,6 +49,15 @@ Site.is_mobile = function() {
  * Function called when document and images have been completely loaded.
  */
 Site.on_load = function() {
+
+	// Slider for home page gallery
+
+	var gallery = new Caracal.Gallery.Slider();
+	gallery
+		.images.set_container('figure')
+		.images.add('figure img.image')
+		.controls.attach_next('a.btnNext')
+		.controls.attach_previous('a.btnPrevious');
 };
 
 
