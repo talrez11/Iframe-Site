@@ -5,7 +5,7 @@
 	<html lang="$language" cms:eval="lang">
 		<head>
 			<title><cms:text constant="site_title"/></title>
-			<cms:collection include="page_control,animation_chain"/>
+			s
 			<cms:module name="head_tag" action="print_tag"/>
 		</head>
 
@@ -14,8 +14,8 @@
 
 			<div class="home_gallery">
 
-				<a href="" class="btnNext"></a>
-				<a href="" class="btnPrevious"></a>
+				<a href="javascript:void(0)" class="btnNext"></a>
+				<a href="javascript:void(0)" class="btnPrevious"></a>
 
 				<figure>
 					<cms:module
