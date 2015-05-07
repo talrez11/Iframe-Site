@@ -12,21 +12,22 @@
 		<body>
 			<cms:template file="parts/header.xml"/>
 
-			<div class="$section == 'gallery' ? 'gallery wrap' : false" cms:optional="class">
+			<div class="$section == 'indoor' ? 'indoor wrap' : false" cms:optional="class">
 
 				<figure></figure>
+				<h2><cms:text constant="page_title"/></h2>
 
 				<cms:module
 					name="gallery"
 					action="show_group_list"
-					container="gallery"
-					template="parts/gallery_image.xml"
-					cms:eval="data-desc"
+					container="indoor"
+					template="parts/groups.xml"
 					/>
 
 			</div>
 
 			<cms:template file="parts/footer.xml"/>
+
 		</body>
 	</html>
 </document>
