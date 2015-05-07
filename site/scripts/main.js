@@ -8,6 +8,7 @@
 
 // create or use existing site scope
 var Site = Site || {};
+var Caracal = Caracal || {};
 
 // make sure variable cache exists
 Site.variable_cache = Site.variable_cache || {};
@@ -50,15 +51,24 @@ Site.is_mobile = function() {
  */
 Site.on_load = function() {
 
+	// Caracal.lightbox = new LightBox('a.gallery.image.direct', false, false, true);
+
+	$('div.group').each(function() {
+	var group = $(this);
+	var group_id = group.data('id');
+	new LightBox('div.group[data-id='+group_id+'] a.image');
+	});
+
 	// Slider for home page gallery
 
 	var gallery = new Caracal.Gallery.Slider();
 	gallery
-		.images.set_container('div.home_gallery figure')
-		.images.add('figure img.image')
+		.images.set_container('figure')
+		.images.add(' img.image')
 		.controls.attach_next('a.btnNext')
 		.controls.attach_previous('a.btnPrevious');
-};
+
+}
 
 
 // connect document `load` event with handler function
