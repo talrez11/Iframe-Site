@@ -1,0 +1,27 @@
+<document>
+	<div class="group"  data-id="$params['id']" cms:eval="data-id">
+
+		<a
+			href="$params['image']"
+			alt="$params['title'][$language]"
+			class="image"
+			style="'background-image: url('.gallery::getThumbnailById($params['thumbnail'],null, 250, Thumbnail::CONSTRAIN_WIDTH).');'"
+			cms:eval="class,src,alt,style,href"
+		/>
+
+		<cms:markdown param="name" multilanguage="yes"/>
+		<cms:markdown param="description" multilanguage="yes"/>
+
+		<div class="container">
+			<cms:module
+				name="gallery"
+				action="show_image_list"
+				group_id="$params['id']"
+				template="parts/group_images.xml"
+				limit="4"
+				cms:eval="group_id"
+				/>
+		</div>
+
+	</div>
+</document>

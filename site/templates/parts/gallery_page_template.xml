@@ -1,0 +1,17 @@
+<document>
+
+		<a
+			href="$params['image']"
+			class="gallery image direct"
+			cms:eval="href"
+			>
+			<img
+				src="gallery::getThumbnailById($params['id'], null, 250, Thumbnail::CONSTRAIN_WIDTH)"
+				alt="$params['title'][$language]"
+				cms:eval="src,alt"
+				/>
+			<h3><cms:var name="$params['title'][$language]"/></h3>
+			<cms:markdown param="description" multilanguage="yes"/>
+		</a>
+
+</document>

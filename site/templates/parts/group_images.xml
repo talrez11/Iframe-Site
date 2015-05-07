@@ -1,0 +1,12 @@
+<document>
+
+		<a
+			href="$params['image']"
+			alt="$params['name'][$language]"
+			class="image"
+			style="'background-image: url('.gallery::getThumbnailById($params['id'],null, 250, Thumbnail::CONSTRAIN_WIDTH).');'"
+			cms:eval="style,alt,src,href,class"
+		>
+		</a>
+
+</document>
