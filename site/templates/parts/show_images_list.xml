@@ -1,0 +1,15 @@
+<document>
+
+	<div class="group"  data-id="$params['id']" cms:eval="data-id">
+		<cms:markdown param="name" multilanguage="yes"/>
+		<cms:module
+			name="gallery"
+			action="show_image_list"
+			group_id="$params['id']"
+			template="parts/group_images.xml"
+			limit="4"
+			cms:eval="group_id"
+			/>
+	</div>
+
+</document>
