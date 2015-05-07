@@ -12,6 +12,12 @@ h1,h2,h3,h4,h5,h6,p {
 	margin-bottom: 0px;
 }
 
+.wrap {
+	display: block;
+	text-align: center;
+	padding:0px calc((100vw - 1200px) / 2);
+}
+
 /*
 	HOME PAGE
 */
@@ -310,5 +316,269 @@ div.features a img {
 	width: 350px;
 }
 
+
+/*Gallery Page*/
+
+div.gallery.wrap {
+	padding-bottom: 50px;
+}
+
+div.gallery.wrap figure {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 50px;
+	background-image: url(../images/innner-page-header-backbround.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	min-height: 300px;
+	width: 100%;
+	position: relative;
+}
+
+div.gallery.wrap > h2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	color:#33485d;;
+	width: 1000px;
+
+}
+
+div.gallery.wrap figure:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -550px;
+	border-bottom: 50px solid rgb(0, 0, 0);
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	-webkit-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
+	height: 0;
+	width: 900px;
+	z-index: -1;
+}
+
+div.gallery.wrap a {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 25px;
+	margin-bottom: 45px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	text-decoration: none;
+	width: 250px;
+	height: 250px;
+	position: relative;
+}
+
+div.gallery.wrap a:before {
+	display: block;
+	content: attr(alt);
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -125px;
+	padding-top: 10px;
+	color: #33485d;
+	font-size: 1.2em;
+	width: 250px;
+}
+
+
+div.gallery.wrap a h3 {
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	color: #33485d;
+}
+
+/*Designs Page*/
+
+div.designs.wrap {
+	padding-bottom: 50px;
+}
+
+div.designs.wrap figure {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 50px;
+	background-image: url(../images/innner-page-header-backbround.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	min-height: 300px;
+	width: 100%;
+	position: relative;
+}
+
+div.designs.wrap > h2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	color:#33485d;;
+	width: 1000px;
+
+}
+
+div.designs.wrap figure:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -550px;
+	border-bottom: 50px solid rgb(0, 0, 0);
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	-webkit-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
+	height: 0;
+	width: 900px;
+	z-index: -1;
+}
+
+div.designs.wrap a {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-top: 25px;
+	margin-bottom: 45px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	text-decoration: none;
+	width: 250px;
+	height: 250px;
+	position: relative;
+}
+
+div.designs.wrap a:before {
+	display: block;
+	content: attr(alt);
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -125px;
+	padding-top: 10px;
+	color: #33485d;
+	font-size: 1.2em;
+	width: 250px;
+}
+
+
+div.designs.wrap a h3 {
+	display: block;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	color: #33485d;
+}
+
+/*Show rooms Page*/
+
+div.showrooms.wrap {
+	padding-bottom: 0px;
+}
+
+div.showrooms.wrap figure {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 50px;
+	background-image: url(../images/innner-page-header-backbround.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	min-height: 300px;
+	width: 100%;
+	position: relative;
+}
+
+div.showrooms.wrap figure:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -550px;
+	border-bottom: 50px solid rgb(0, 0, 0);
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	-webkit-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
+	height: 0;
+	width: 900px;
+	z-index: -1;
+}
+div.showrooms.wrap > h2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	color:#33485d;;
+	width: 1000px;
+
+}
+
+div.showrooms.wrap div.group {
+	display: block;
+	position: relative;
+}
+
+div.showrooms.wrap div.group > a {
+	display: block;
+	position: absolute;
+	margin-left: 15px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	text-decoration: none;
+	width: 450px;
+	height: 300px;
+	top: 0px;
+	left: 0px;
+}
+
+div.showrooms.wrap div.group p:first-of-type {
+	display: block;
+	text-align: left;
+	padding-bottom: 15px;
+	padding-left: 500px;
+	font-size: 2em;
+
+}
+
+div.showrooms.wrap div.group p {
+	display: block;
+	text-align: left;
+	padding-left: 500px;
+}
+
+div.showrooms.wrap div.group div.container {
+	display: block;
+	text-align: left;
+
+}
+
+div.showrooms.wrap div.group div.container a {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 50px;
+	margin-bottom: 80px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	text-decoration: none;
+	width: 250px;
+	height: 200px;
+	position: relative;
+}
 
 
