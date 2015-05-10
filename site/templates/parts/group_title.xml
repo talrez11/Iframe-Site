@@ -1,0 +1,5 @@
+<document>
+
+		<cms:markdown param="name" multilanguage="yes"/>
+
+</document>
