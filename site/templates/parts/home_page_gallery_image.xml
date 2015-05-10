@@ -1,7 +1,6 @@
 <document>
 		<img
 			src="$params['image']"
-			alt="$params['title'][$language]"
 			class="image"
 			cms:eval="class,src,alt"
 		/>

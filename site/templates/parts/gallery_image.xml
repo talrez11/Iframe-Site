@@ -1,7 +1,7 @@
 <document>
 
 		<a
-			data-desc="$params['description'][$language]"
+			data-desc="$section"
 			data-gallery="$params['id']"
 			alt="$params['name'][$language]"
 			href="$params['image']"
