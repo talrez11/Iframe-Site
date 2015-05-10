@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../units/schema/template.dtd">
+<document>
+	<cms:var name="_DOCTYPE"/>
+	<html lang="$language" cms:eval="lang">
+		<head>
+			<title><cms:text constant="site_title"/></title>
+			<cms:collection include="page_control,animation_chain"/>
+			<cms:module name="head_tag" action="print_tag"/>
+		</head>
+
+		<body>
+			<cms:template file="parts/header.xml"/>
+
+			<div class="$section == 'portfolio' ? 'portfolio wrap' : false" cms:optional="class">
+
+				<div class="group"  data-id="$_REQUEST['id']" cms:eval="data-id">
+
+					<cms:module
+						name="gallery"
+						action="show_group"
+						id="$_REQUEST['id']"
+						template="parts/group_title.xml"
+						cms:eval="id"
+					/>
+
+					<cms:module
+						name="gallery"
+						action="show_image_list"
+						group_id="$_REQUEST['id']"
+						template="parts/group_images.xml"
+						limit="4"
+						cms:eval="group_id"
+						/>
+				</div>
+
+			</div>
+
+			<cms:template file="parts/footer.xml"/>
+		</body>
+	</html>
+</document>
