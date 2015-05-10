@@ -107,6 +107,11 @@ div.home_gallery div.gallery_wrap figure {
 	width: 100%;
 	height: 100%;
 	transition:all 0.8s;
+	transition-timing-function: ease-out;
+}
+
+div.home_gallery div.gallery_wrap figure.transit {
+	transition:none;
 }
 
 
@@ -221,7 +226,17 @@ div.header_form form label span {
 div.header_form form label input {
 	display: inline-block;
 	vertical-align: middle;
+    background-color: rgba(255, 255, 255, 0.6);
 	width: 200px;
+	transition:all 0.3s;
+}
+
+div.header_form form label input:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+div.header_form form label input:focus {
+	background-color: white;
 }
 
 div.header_form form div.controls {
@@ -262,16 +277,16 @@ div.features {
 div.features a {
 	display: inline-block;
 	vertical-align: top;
-	padding-left: 20px;
-	padding-right: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
 	text-decoration: none;
 	position: relative;
 
 }
 
 div.features a:hover span {
-	color: #11b260;
-	background-color: white;
+	color:white;
+	background-color: #11b260;
 }
 
 div.features a h2 {
