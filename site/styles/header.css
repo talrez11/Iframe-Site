@@ -18,8 +18,8 @@ header {
 header nav {
 	display: inline-block;
 	vertical-align: middle;
-	padding-left: 35px;
-	padding-right: 35px;
+	padding-left: 30px;
+	padding-right: 30px;
 	text-align: center;
 }
 
@@ -41,6 +41,7 @@ header nav a:hover {
 
 header nav a.active {
 	color:#11b260;
+	text-decoration: underline;
 }
 
 a.logo {
