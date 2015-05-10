@@ -30,6 +30,22 @@ div.home_gallery {
 	min-height: 700px;
 	position: relative;
 }
+div.home_gallery:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -550px;
+	border-bottom: 50px solid rgb(0, 0, 0);
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	-webkit-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
+	-moz-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
+	-o-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
+	filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
+	height: 0;
+	width: 900px;
+}
 
 a.btnNext {
 	display: inline-block;
@@ -65,7 +81,7 @@ a.btnPrevious {
 	z-index: 50;
 }
 
-div.home_gallery figure {
+div.home_gallery div.gallery_wrap {
 	display: block;
 	position: absolute;
 	top:0px;
@@ -76,52 +92,25 @@ div.home_gallery figure {
 	margin-right: auto;
 	width: 1200px;
 	min-height: 700px;
+	overflow: hidden;
 }
 
-div.home_gallery figure:before {
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	margin-left: -550px;
-	border-bottom: 50px solid rgb(0, 0, 0);
-	border-left: 100px solid transparent;
-	border-right: 100px solid transparent;
-	-webkit-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
-	-moz-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
-	-o-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
-	filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
-	height: 0;
-	width: 900px;
-}
-
-/*div.home_gallery figure:after {
-	content: attr(data-image);
-	display: block;
-	text-align: center;
-	position: absolute;
-	top: 40%;
-	right: 100px;
-	padding: 20px 30px;
-	width: 500px;
-	background-color: rgba(0, 0, 0, 0.6);
-	text-transform: uppercase;
-	color: white;
-	font-size: 2.4em;
-	font-weight: 700;
-
-}*/
-
-div.home_gallery figure img {
+div.home_gallery div.gallery_wrap figure {
 	display: block;
 	position: absolute;
-	top:0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	top: 0px;
 	left: 0px;
 	width: 100%;
 	height: 100%;
+	transition:all 0.8s;
 }
 
-div.home_gallery figure span {
+
+div.home_gallery div.gallery_wrap figure:after {
 	content: attr(data-image);
 	display: block;
 	text-align: center;
@@ -136,6 +125,12 @@ div.home_gallery figure span {
 	font-size: 2.4em;
 	font-weight: 700;
 }
+
+
+div.home_gallery div.gallery_wrap figure img {
+	display: block;
+}
+
 
 div.home_gallery div.btnControls {
 	display: block;
@@ -340,6 +335,24 @@ div.gallery.wrap figure {
 	position: relative;
 }
 
+div.gallery.wrap figure h1 {
+	display: block;
+	text-align: left;
+	padding-top: 70px;
+	padding-left: 90px;
+	color:white;
+	font-weight: 300;
+	font-size: 6em;
+}
+
+div.gallery.wrap figure p {
+	display: block;
+	text-align: left;
+	padding-left: 100px;
+	color: white;
+	font-size: 1.4em;
+}
+
 div.gallery.wrap > h2 {
 	display: block;
 	margin-left: auto;
@@ -417,16 +430,6 @@ div.designs.wrap figure {
 	position: relative;
 }
 
-div.designs.wrap > h2 {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 20px;
-	color:#33485d;;
-	width: 1000px;
-
-}
-
 div.designs.wrap figure:before {
 	content: "";
 	position: absolute;
@@ -444,6 +447,34 @@ div.designs.wrap figure:before {
 	width: 900px;
 	z-index: -1;
 }
+div.designs.wrap figure h1 {
+	display: block;
+	text-align: left;
+	padding-top: 70px;
+	padding-left: 90px;
+	color:white;
+	font-weight: 300;
+	font-size: 6em;
+}
+
+div.designs.wrap figure p {
+	display: block;
+	text-align: left;
+	padding-left: 100px;
+	color: white;
+	font-size: 1.4em;
+}
+
+div.designs.wrap > h2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	color:#33485d;;
+	width: 1000px;
+
+}
+
 
 div.designs.wrap a {
 	display: inline-block;
@@ -519,6 +550,25 @@ div.showrooms.wrap figure:before {
 	width: 900px;
 	z-index: -1;
 }
+
+div.showrooms.wrap figure h1 {
+	display: block;
+	text-align: left;
+	padding-top: 70px;
+	padding-left: 90px;
+	color:white;
+	font-weight: 300;
+	font-size: 6em;
+}
+
+div.showrooms.wrap figure p {
+	display: block;
+	text-align: left;
+	padding-left: 100px;
+	color: white;
+	font-size: 1.4em;
+}
+
 div.showrooms.wrap > h2 {
 	display: block;
 	margin-left: auto;
@@ -622,6 +672,24 @@ div.indoor.wrap figure:before {
 	width: 900px;
 	z-index: -1;
 }
+
+div.indoor.wrap figure h1 {
+	display: block;
+	text-align: left;
+	padding-top: 70px;
+	padding-left: 90px;
+	color:white;
+	font-weight: 300;
+	font-size: 6em;
+}
+
+div.indoor.wrap figure p {
+	display: block;
+	text-align: left;
+	padding-left: 100px;
+	color: white;
+	font-size: 1.4em;
+}
 div.indoor.wrap > h2 {
 	display: block;
 	margin-left: auto;
@@ -724,6 +792,24 @@ div.outdoor.wrap figure:before {
 	height: 0;
 	width: 900px;
 	z-index: -1;
+}
+
+div.outdoor.wrap figure h1 {
+	display: block;
+	text-align: left;
+	padding-top: 70px;
+	padding-left: 90px;
+	color:white;
+	font-weight: 300;
+	font-size: 6em;
+}
+
+div.outdoor.wrap figure p {
+	display: block;
+	text-align: left;
+	padding-left: 100px;
+	color: white;
+	font-size: 1.4em;
 }
 div.outdoor.wrap > h2 {
 	display: block;
@@ -829,6 +915,25 @@ div.kitchen.wrap figure:before {
 	width: 900px;
 	z-index: -1;
 }
+
+div.kitchen.wrap figure h1 {
+	display: block;
+	text-align: left;
+	padding-top: 70px;
+	padding-left: 90px;
+	color:white;
+	font-weight: 300;
+	font-size: 6em;
+}
+
+div.kitchen.wrap figure p {
+	display: block;
+	text-align: left;
+	padding-left: 100px;
+	color: white;
+	font-size: 1.4em;
+}
+
 div.kitchen.wrap > h2 {
 	display: block;
 	margin-left: auto;
@@ -907,6 +1012,25 @@ div.about.wrap figure:before {
 	width: 900px;
 	z-index: -1;
 }
+
+div.about.wrap figure h1 {
+	display: block;
+	text-align: left;
+	padding-top: 70px;
+	padding-left: 90px;
+	color:white;
+	font-weight: 300;
+	font-size: 6em;
+}
+
+div.about.wrap figure p {
+	display: block;
+	text-align: left;
+	padding-left: 100px;
+	color: white;
+	font-size: 1.4em;
+}
+
 div.about.wrap > h2 {
 	display: block;
 	margin-left: auto;
@@ -1004,4 +1128,43 @@ div.about.wrap article p {
 	display: block;
 	color: #7e8b8c;
 
+}
+
+/*Portfolio*/
+
+div.portfolio.wrap {
+	padding-bottom: 0px;
+}
+
+div.portfolio.wrap div.group {
+	display: block;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+div.portfolio.wrap div.group p {
+	display: block;
+	padding-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	color:#33485d;
+	width: 1000px;
+	font-weight: 300;
+	font-size: 2em;
+}
+
+div.portfolio.wrap div.group a {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 50px;
+	margin-bottom:0px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	text-decoration: none;
+	width: 250px;
+	height: 200px;
+	position: relative;
 }
