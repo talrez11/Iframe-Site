@@ -14,7 +14,11 @@
 
 			<div class="$section == 'about_us' ? 'about wrap' : false" cms:optional="class">
 
-				<figure></figure>
+				<figure>
+					<h1><cms:text constant="about"/></h1>
+					<p><cms:text constant="desc"/></p>
+				</figure>
+
 				<h2><cms:text constant="page_title"/></h2>
 
 				<cms:module

@@ -17,7 +17,7 @@
 				<a href="javascript:void(0)" class="btnNext"></a>
 				<a href="javascript:void(0)" class="btnPrevious"></a>
 
-				<figure>
+				<div class="gallery_wrap">
 					<cms:module
 						name="gallery"
 						action="show_image_list"
@@ -25,7 +25,7 @@
 						template="parts/home_page_gallery_image.xml"
 						cms:eval="group"
 						/>
-				</figure>
+				</div>
 
 				<div class="btnControls">
 					<a href=""></a>

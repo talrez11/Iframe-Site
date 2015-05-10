@@ -14,7 +14,10 @@
 
 			<div class="$section == 'gallery' ? 'gallery wrap' : false" cms:optional="class">
 
-				<figure></figure>
+				<figure>
+					<h1><cms:text constant="gallery"/></h1>
+					<p><cms:text constant="desc"/></p>
+				</figure>
 
 				<cms:module
 					name="gallery"

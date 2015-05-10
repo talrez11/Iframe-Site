@@ -15,7 +15,10 @@
 
 			<div class="$section == 'designs' ? 'designs wrap' : false" cms:optional="class">
 
-				<figure></figure>
+				<figure>
+					<h1><cms:text constant="designs"/></h1>
+					<p><cms:text constant="desc"/></p>
+				</figure>
 
 				<h2><cms:text constant="page_title"/></h2>
 
