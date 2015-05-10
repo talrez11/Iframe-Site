@@ -51,7 +51,7 @@ Site.is_mobile = function() {
  */
 Site.on_load = function() {
 
-	// Caracal.lightbox = new LightBox('a.gallery.image.direct', false, false, true);
+
 
 	$('div.group').each(function() {
 	var group = $(this);
