@@ -28,20 +28,37 @@ header nav a {
 	vertical-align: middle;
 	padding-top: 1em;
 	padding-bottom: 1em;
-	padding-left: 10px;
-	padding-right: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
 	text-decoration: none;
 	color:#7e8b8c;
 	transition:all 0.3s;
+	position: relative;
+}
+
+header nav a:before {
+	content: "";
+	position: absolute;
+	top:80%;
+	left: 0%;
+	width: 0%;
+	height: 2px;
+	background-color:#11b260;
+	transition:all 0.3s;
+}
+
+header nav a:hover:before {
+	width: 100%;
 }
 
 header nav a:hover {
 	color:#11b260;
 }
 
-header nav a.active {
+header nav a.active:before {
 	color:#11b260;
-	text-decoration: underline;
+	width: 100%;
+
 }
 
 a.logo {
