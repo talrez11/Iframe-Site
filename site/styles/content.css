@@ -198,10 +198,9 @@ div.header_form form {
 
 div.header_form form fieldset {
   position: absolute;
-  top: -36px;
-  right:5px;
+  top: -30px;
+  right:40px;
   color: white;
-  margin-left: auto;
   display: block;
   width: 400px;
   border: none;
@@ -210,7 +209,7 @@ div.header_form form fieldset {
 
 div.header_form form fieldset legend {
 	position: absolute;
-	top: 3px;
+	top: -3px;
 	font-size: 1.3em;
 	color:white;
 
@@ -1517,8 +1516,26 @@ div.home_gallery div.gallery_wrap figure:after {
   font-weight: 700;
 }
 
+div.home_gallery div.btnControls {
+	bottom: 145px;
+}
+
 div.home_gallery div.header_form > span {
+	display: block;
+	padding-left: 0px;
 	padding-bottom: 10px;
+}
+
+div.header_form form fieldset {
+	display: block;
+	position: relative;
+	top:0px;
+	left: 0px;
+	text-align: left;
+	padding-left: 155px;
+	color: white;
+	width: 400px;
+	border: none;
 }
 
 div.gallery.wrap figure:before {
