@@ -682,6 +682,22 @@ div.showrooms.wrap div.group div.container a {
 	position: relative;
 }
 
+div.showrooms.wrap div.group div.container a:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 250px;
+	height: 200px;
+	background-color: white;
+	opacity: 0;
+	transition:all 0.3s;
+}
+
+div.showrooms.wrap div.group div.container a:hover:before {
+	opacity: 0.3;
+}
+
 /*Show indoor Page*/
 
 div.indoor.wrap {
@@ -801,6 +817,22 @@ div.indoor.wrap div.group div.container a {
 	width: 250px;
 	height: 200px;
 	position: relative;
+}
+
+div.indoor.wrap div.group div.container a:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 250px;
+	height: 200px;
+	background-color: white;
+	opacity: 0;
+	transition:all 0.3s;
+}
+
+div.indoor.wrap div.group div.container a:hover:before {
+	opacity: 0.3;
 }
 
 /*Show outdoor page*/
@@ -924,6 +956,24 @@ div.outdoor.wrap div.group div.container a {
 	position: relative;
 }
 
+div.outdoor.wrap div.group div.container a:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 250px;
+	height: 200px;
+	background-color: white;
+	opacity: 0;
+	transition:all 0.3s;
+}
+
+div.outdoor.wrap div.group div.container a:hover:before {
+	opacity: 0.3;
+}
+
+
+
 /*Kitchen And Bath Page*/
 
 
@@ -1020,6 +1070,22 @@ div.kitchen.wrap div.group a {
 	width: 250px;
 	height: 200px;
 	position: relative;
+}
+
+div.kitchen.wrap div.group a:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 250px;
+	height: 200px;
+	background-color: white;
+	opacity: 0;
+	transition:all 0.3s;
+}
+
+div.kitchen.wrap div.group a:hover:before {
+	opacity: 0.3;
 }
 
 /*About us Page*/
@@ -1143,6 +1209,23 @@ div.about.wrap div.group div.container a {
 	height: 200px;
 	position: relative;
 }
+
+div.about.wrap div.group div.container a:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 250px;
+	height: 200px;
+	background-color: white;
+	opacity: 0;
+	transition:all 0.3s;
+}
+
+div.about.wrap div.group div.container a:hover:before {
+	opacity: 0.3;
+}
+
 
 div.about.wrap article {
 	display: inline-block;
