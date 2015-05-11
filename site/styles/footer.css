@@ -301,3 +301,10 @@ footer div.rights span a:hover {
 }
 
 
+
+@media only screen and (max-device-width: 1024px) and (min-device-width: 768px){
+footer article.info_article h3{
+	padding-top: 15px;
+}
+}
+
