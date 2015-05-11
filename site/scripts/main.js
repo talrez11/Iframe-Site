@@ -56,7 +56,7 @@ Site.on_load = function() {
 	$('div.group').each(function() {
 	var group = $(this);
 	var group_id = group.data('id');
-	new LightBox('div.group[data-id='+group_id+'] a.image');
+	new LightBox('div.group[data-id='+group_id+'] a.image',false,false ,true);
 	});
 
 	// Slider for home page gallery
