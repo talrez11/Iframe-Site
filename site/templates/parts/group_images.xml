@@ -6,7 +6,9 @@
 			class="image"
 			style="'background-image: url('.gallery::getThumbnailById($params['id'],null, 250, Thumbnail::CONSTRAIN_WIDTH).');'"
 			cms:eval="style,alt,src,href,class"
+
 		>
+		<h3><cms:var name="$params['title'][$language]"/></h3>
 		</a>
 
 
