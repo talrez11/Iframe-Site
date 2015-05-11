@@ -59,7 +59,7 @@ Site.on_load = function() {
 	new LightBox('div.group[data-id='+group_id+'] a.image',false,false ,true);
 	});
 
-	// Slider for home page gallery
+	//Slider for home page gallery
 
 	var gallery = new Caracal.Gallery.Slider();
 	gallery
