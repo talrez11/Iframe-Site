@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE document SYSTEM "../units/schema/language.dtd">
 <document>
-	<footer>
+	<footer >
 		<cms:module
 			name="articles"
 			action="show"
@@ -16,7 +16,7 @@
 			template="parts/article_info.xml"
 			/>
 
-		<div class="form_wrap">
+		<div class="form_wrap" id="footer">
 			<h2><cms:text constant="form_title"/></h2>
 			<p><cms:text constant="form_desc"/></p>
 			<cms:module
@@ -26,7 +26,7 @@
 				/>
 		</div>
 
-		<div class="rights">
+		<div class="rights" id="footer">
 			<span><cms:text constant="copyright"/></span>
 		</div>
 
