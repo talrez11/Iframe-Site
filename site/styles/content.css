@@ -58,8 +58,11 @@ a.btnNext {
 	border: 0px solid white;
 	border-left-width: 5px;
 	border-bottom-width: 5px;
-	filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, .5));
 	-webkit-filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, .5));
+	-moz-filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, .5));
+	-o-filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, .5));
+	filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, .5));
+	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
 	z-index: 50;
 }
@@ -75,8 +78,11 @@ a.btnPrevious {
 	border: 0px solid white;
 	border-right-width: 5px;
 	border-top-width: 5px;
-	filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, .5));
 	-webkit-filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, .5));
+	-moz-filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, .5));
+	-o-filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, .5));
+	filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, .5));
+	-webkit-transform: rotate(45deg);
 	transform: rotate(45deg);
 	z-index: 50;
 }
@@ -700,6 +706,20 @@ div.showrooms.wrap div.group div.container a:hover:before {
 	opacity: 0.3;
 }
 
+div.showrooms.wrap div.group div.container a h3 {
+	display: block;
+	text-align: center;
+	padding-top: 205px;
+	padding-bottom: 10px;
+	color: #33485d;
+	font-weight: 300;
+	transition: all 0.3s;
+}
+
+div.showrooms.wrap div.group div.container a:hover h3 {
+	color:#11b260;
+}
+
 /*Show indoor Page*/
 
 div.indoor.wrap {
@@ -835,6 +855,20 @@ div.indoor.wrap div.group div.container a:before {
 
 div.indoor.wrap div.group div.container a:hover:before {
 	opacity: 0.3;
+}
+
+div.indoor.wrap div.group div.container a h3 {
+	display: block;
+	text-align: center;
+	padding-top: 205px;
+	padding-bottom: 10px;
+	color: #33485d;
+	font-weight: 300;
+	transition: all 0.3s;
+}
+
+div.indoor.wrap div.group div.container a:hover h3 {
+	color:#11b260;
 }
 
 /*Show outdoor page*/
@@ -974,6 +1008,20 @@ div.outdoor.wrap div.group div.container a:hover:before {
 	opacity: 0.3;
 }
 
+div.outdoor.wrap div.group div.container a h3 {
+	display: block;
+	text-align: center;
+	padding-top: 205px;
+	padding-bottom: 10px;
+	color: #33485d;
+	font-weight: 300;
+	transition: all 0.3s;
+}
+
+div.outdoor.wrap div.group div.container a:hover h3 {
+	color:#11b260;
+}
+
 
 
 /*Kitchen And Bath Page*/
@@ -1088,6 +1136,20 @@ div.kitchen.wrap div.group a:before {
 
 div.kitchen.wrap div.group a:hover:before {
 	opacity: 0.3;
+}
+
+div.kitchen.wrap div.group a h3 {
+	display: block;
+	text-align: center;
+	padding-top: 205px;
+	padding-bottom: 10px;
+	color: #33485d;
+	font-weight: 300;
+	transition: all 0.3s;
+}
+
+div.kitchen.wrap div.group  a:hover h3 {
+	color:#11b260;
 }
 
 /*About us Page*/
@@ -1228,6 +1290,20 @@ div.about.wrap div.group div.container a:hover:before {
 	opacity: 0.3;
 }
 
+div.about.wrap div.group div.container a h3 {
+	display: block;
+	text-align: center;
+	padding-top: 205px;
+	padding-bottom: 10px;
+	color: #33485d;
+	font-weight: 300;
+	transition: all 0.3s;
+}
+
+div.about.wrap div.group div.container a:hover h3 {
+	color:#11b260;
+}
+
 
 div.about.wrap article {
 	display: inline-block;
@@ -1315,4 +1391,301 @@ div.portfolio.wrap div.group a:before {
 
 div.portfolio.wrap div.group a:hover:before {
 	opacity: 0.3;
+}
+
+div.portfolio.wrap div.group a h3 {
+	display: block;
+	padding-top: 205px;
+	padding-bottom: 10px;
+	color: #33485d;
+	font-weight: 300;
+	transition: all 0.3s;
+}
+
+div.portfolio.wrap div.group a:hover h3 {
+	color:#11b260;
+}
+
+
+/*Tablet Version*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+header nav {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+header nav a {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+a.phone {
+	font-size: 1em;
+}
+
+a.logo {
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 15px;
+  background-image: url(../images/header/logo.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 160px 45px;
+  width: 160px;
+  height: 45px;
+}
+
+div.features {
+  display: block;
+  text-align: center;
+  padding: 0px calc((100vw - 1200px) / 2) 50px;
+}
+
+div.header_form form label input {
+	width: 150px;
+}
+
+div.home_gallery {
+	width: 900px;
+}
+
+div.home_gallery div.gallery_wrap {
+	width: 900px;
+}
+
+div.home_gallery:before {
+	width: 700px;
+	margin-left: -450px;
+	bottom:15px;
+}
+
+div.features a {
+	padding-top: 50px;
+}
+
+div.home_gallery div.gallery_wrap figure img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+div.home_gallery div.gallery_wrap figure:after {
+  content: attr(data-image);
+  display: block;
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  right: 20px;
+  padding: 20px 5px;
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+  color: white;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+div.home_gallery div.header_form > span {
+	padding-bottom: 10px;
+}
+
+div.gallery.wrap figure:before {
+	width: 700px;
+	margin-left: -450px;
+	bottom:15px;
+}
+
+div.gallery.wrap figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  background-image: url(../images/innner-page-header-backbround.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 0px;
+  width: 100%;
+  height: 256px;
+  position: relative;
+}
+
+div.designs.wrap figure:before {
+	width: 700px;
+	margin-left: -450px;
+	bottom:15px;
+}
+
+div.designs.wrap figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  background-image: url(../images/innner-page-header-backbround.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 0px;
+  width: 100%;
+  height: 256px;
+  position: relative;
+}
+
+div.designs.wrap > h2 {
+	width: 900px;
+}
+
+div.showrooms.wrap figure:before {
+	width: 700px;
+	margin-left: -450px;
+	bottom:15px;
+}
+
+div.showrooms.wrap figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  background-image: url(../images/innner-page-header-backbround.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 0px;
+  width: 100%;
+  height: 256px;
+  position: relative;
+}
+
+div.showrooms.wrap > h2 {
+	width: 900px;
+}
+
+div.showrooms.wrap div.group div.container a {
+	margin-bottom: 50px;
+}
+
+div.kitchen.wrap figure:before {
+	width: 700px;
+	margin-left: -450px;
+	bottom:15px;
+}
+
+div.kitchen.wrap figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  background-image: url(../images/innner-page-header-backbround.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 0px;
+  width: 100%;
+  height: 256px;
+  position: relative;
+}
+
+div.kitchen.wrap div.group p {
+	width: 900px;
+}
+
+div.indoor.wrap figure:before {
+	width: 700px;
+	margin-left: -450px;
+	bottom:15px;
+}
+
+div.indoor.wrap figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  background-image: url(../images/innner-page-header-backbround.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 0px;
+  width: 100%;
+  height: 256px;
+  position: relative;
+}
+
+div.indoor.wrap > h2 {
+	width: 900px;
+}
+
+div.indoor.wrap div.group div.container a {
+	margin-bottom: 50px;
+}
+
+
+div.outdoor.wrap figure:before {
+	width: 700px;
+	margin-left: -450px;
+	bottom:15px;
+}
+
+div.outdoor.wrap figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  background-image: url(../images/innner-page-header-backbround.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 0px;
+  width: 100%;
+  height: 256px;
+  position: relative;
+}
+
+div.outdoor.wrap > h2 {
+	width: 900px;
+}
+
+div.outdoor.wrap div.group div.container a {
+	margin-bottom: 50px;
+}
+
+div.about.wrap figure:before {
+	width: 700px;
+	margin-left: -450px;
+	bottom:15px;
+}
+
+div.about.wrap figure {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  background-image: url(../images/innner-page-header-backbround.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  min-height: 0px;
+  width: 100%;
+  height: 256px;
+  position: relative;
+}
+
+div.about.wrap > h2 {
+	width: 900px;
+}
+
+div.about.wrap div.group div.container a {
+	margin-bottom: 50px;
+}
+
+
+
 }
