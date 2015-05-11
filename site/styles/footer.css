@@ -224,14 +224,18 @@ form label input {
 	padding-left: 5px;
 	padding-right: 5px;
 	color:black;
-	background-color:#ecf0f1;
+	background-color: rgba(255, 255, 255, 0.6);
 	border:1px solid #7f8c8d;
 	width: 95%;
 	transition:all 0.3s;
 }
 
 form label input:hover {
-	border:1px solid #00803e;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+form label input:focus {
+	background-color: white;
 }
 
 form div.controls {
