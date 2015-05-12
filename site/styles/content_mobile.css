@@ -28,12 +28,23 @@ header div.mobile_title {
 	background-color: white;
 	height: auto;
 
+}
+
+.mobile_menu a {
+	padding: 0.8em;
+	border-bottom: 1px solid #94a4a5;
+}
+
+
+.mobile_menu.visible {
 
 }
 
 header div.mobile_title.menu_visible a.menu{
 	left: -15px;
 }
+
+
 
 header a.logo {
 	display:block;
