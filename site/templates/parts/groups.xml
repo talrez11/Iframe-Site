@@ -1,6 +1,8 @@
 <document>
 	<div class="group"  data-id="$params['id']" cms:eval="data-id">
-
+		<cms:mobile>
+			<cms:markdown param="name" multilanguage="yes"/>
+		</cms:mobile>
 		<a
 			href="$params['image']"
 			alt="$params['title'][$language]"
@@ -8,8 +10,9 @@
 			style="'background-image: url('.gallery::getThumbnailById($params['thumbnail'],null, 250, Thumbnail::CONSTRAIN_WIDTH).');'"
 			cms:eval="class,src,alt,style,href"
 		/>
-
-		<cms:markdown param="name" multilanguage="yes"/>
+		<cms:desktop>
+			<cms:markdown param="name" multilanguage="yes"/>
+		</cms:desktop>
 		<cms:markdown param="description" multilanguage="yes"/>
 
 		<div class="container">
