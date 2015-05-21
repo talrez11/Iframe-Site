@@ -2,10 +2,9 @@
 
 		<a
 			href="$params['image']"
-			alt="$params['name'][$language]"
 			class="image"
 			style="'background-image: url('.gallery::getThumbnailById($params['id'],null, 250, Thumbnail::CONSTRAIN_WIDTH).');'"
-			cms:eval="style,alt,src,href,class"
+			cms:eval="style,src,href,class"
 
 		>
 		<h3><cms:var name="$params['title'][$language]"/></h3>

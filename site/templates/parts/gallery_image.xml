@@ -3,9 +3,8 @@
 		<a
 			href="url_Make($section,'portfolio',array('id',$params['id']),array('name',$params['name'][$language]))"
 			data-gallery="$params['id']"
-			alt="$params['name'][$language]"
 			style="'background-image: url('.gallery::getGroupThumbnailById($params['id'],null, 250, Thumbnail::CONSTRAIN_WIDTH).');'"
-			cms:eval="data-gallery,style,href,alt,data-desc"
+			cms:eval="data-gallery,style,href,data-desc"
 			>
 			<h3><cms:var param="name" multilanguage="yes"/></h3>
 			<p><cms:var param="description" multilanguage="yes"/></p>

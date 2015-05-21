@@ -5,10 +5,9 @@
 		</cms:mobile>
 		<a
 			href="$params['image']"
-			alt="$params['title'][$language]"
 			class="image"
 			style="'background-image: url('.gallery::getThumbnailById($params['thumbnail'],null, 250, Thumbnail::CONSTRAIN_WIDTH).');'"
-			cms:eval="class,src,alt,style,href"
+			cms:eval="class,src,style,href"
 		/>
 		<cms:desktop>
 			<cms:markdown param="name" multilanguage="yes"/>
