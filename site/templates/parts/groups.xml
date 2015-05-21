@@ -10,10 +10,12 @@
 			cms:eval="style,href"
 		/>
 		<cms:desktop>
-			<cms:markdown param="name" multilanguage="yes"/>
-		</cms:desktop>
-		<cms:markdown param="description" multilanguage="yes"/>
 
+		<div class="description">
+			<cms:markdown param="name" multilanguage="yes"/>
+			<cms:markdown param="description" multilanguage="yes"/>
+		</div>
+		</cms:desktop>
 		<div class="container">
 			<cms:module
 				name="gallery"
