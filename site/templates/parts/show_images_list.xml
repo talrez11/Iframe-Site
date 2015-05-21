@@ -2,6 +2,7 @@
 
 	<div class="group"  data-id="$params['id']" cms:eval="data-id">
 		<cms:markdown param="name" multilanguage="yes"/>
+		<cms:markdown param="description" multilanguage="yes"/>
 		<cms:module
 			name="gallery"
 			action="show_image_list"
