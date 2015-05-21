@@ -7,7 +7,7 @@
 			href="$params['image']"
 			class="image"
 			style="'background-image: url('.gallery::getThumbnailById($params['thumbnail'],null, 250, Thumbnail::CONSTRAIN_WIDTH).');'"
-			cms:eval="class,src,style,href"
+			cms:eval="class,style,href"
 		/>
 		<cms:desktop>
 			<cms:markdown param="name" multilanguage="yes"/>
