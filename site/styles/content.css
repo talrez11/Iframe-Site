@@ -1148,13 +1148,22 @@ div.kitchen.wrap div.group {
 	margin-bottom: 50px;
 }
 
-div.kitchen.wrap div.group p {
+div.kitchen.wrap div.group p:first-of-type {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	color:#33485d;;
 	width: 1000px;
 	font-size: 2em;
+}
+
+div.kitchen.wrap div.group p:last-of-type {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: #7e8b8c;
+	width: 1000px;
+
 }
 
 div.kitchen.wrap div.group a {
@@ -1641,6 +1650,12 @@ div.showrooms.wrap > h2 {
 	width: 900px;
 }
 
+div.showrooms.wrap div.group div.description {
+	display: inline-block;
+	vertical-align: top;
+	width:450px;
+}
+
 div.showrooms.wrap div.group div.container a {
 	margin-bottom: 50px;
 }
@@ -1697,6 +1712,12 @@ div.indoor.wrap > h2 {
 	width: 900px;
 }
 
+div.indoor.wrap div.group div.description {
+	display: inline-block;
+	vertical-align: top;
+	width:450px;
+}
+
 div.indoor.wrap div.group div.container a {
 	margin-bottom: 50px;
 }
@@ -1728,6 +1749,12 @@ div.outdoor.wrap > h2 {
 	width: 900px;
 }
 
+div.outdoor.wrap div.group div.description {
+	display: inline-block;
+	vertical-align: top;
+	width:450px;
+}
+
 div.outdoor.wrap div.group div.container a {
 	margin-bottom: 50px;
 }
@@ -1756,6 +1783,12 @@ div.about.wrap figure {
 
 div.about.wrap > h2 {
 	width: 900px;
+}
+
+div.about.wrap div.group div.description {
+	display: inline-block;
+	vertical-align: top;
+	width:450px;
 }
 
 div.about.wrap div.group div.container a {
