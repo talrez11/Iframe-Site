@@ -686,6 +686,7 @@ div.showrooms.wrap div.group > a {
 div.showrooms.wrap div.group div.description {
 	display: inline-block;
 	vertical-align: top;
+	width: 650px;
 
 
 }
@@ -844,6 +845,7 @@ div.indoor.wrap div.group > a {
 div.indoor.wrap div.group div.description {
 	display: inline-block;
 	vertical-align: top;
+	width: 650px;
 
 
 }
@@ -1001,6 +1003,7 @@ div.outdoor.wrap div.group > a {
 div.outdoor.wrap div.group div.description {
 	display: inline-block;
 	vertical-align: top;
+	width: 650px;
 
 
 }
@@ -1289,6 +1292,7 @@ div.about.wrap div.group > a {
 div.about.wrap div.group div.description {
 	display: inline-block;
 	vertical-align: top;
+	width: 650px;
 
 
 }
