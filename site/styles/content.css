@@ -377,7 +377,7 @@ div.gallery.wrap figure {
 	margin-right: auto;
 	margin-top: 0px;
 	margin-bottom: 50px;
-	background-image: url(../images/innner-page-header-backbround.jpg);
+	background-image: url(../images/1.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	min-height: 300px;
@@ -495,7 +495,7 @@ div.designs.wrap figure {
 	margin-right: auto;
 	margin-top: 0px;
 	margin-bottom: 50px;
-	background-image: url(../images/innner-page-header-backbround.jpg);
+	background-image: url(../images/2.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	min-height: 300px;
@@ -543,7 +543,8 @@ div.designs.wrap > h2 {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 20px;
-	color:#33485d;;
+	color:#33485d;
+	font-weight: 300;
 	width: 1000px;
 
 }
@@ -609,7 +610,7 @@ div.showrooms.wrap figure {
 	margin-right: auto;
 	margin-top: 0px;
 	margin-bottom: 50px;
-	background-image: url(../images/innner-page-header-backbround.jpg);
+	background-image: url(../images/3.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	min-height: 300px;
@@ -658,7 +659,8 @@ div.showrooms.wrap > h2 {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 50px;
-	color:#33485d;;
+	color:#33485d;
+	font-weight: 300;
 	width: 1000px;
 
 }
@@ -768,7 +770,7 @@ div.indoor.wrap figure {
 	margin-right: auto;
 	margin-top: 0px;
 	margin-bottom: 50px;
-	background-image: url(../images/innner-page-header-backbround.jpg);
+	background-image: url(../images/4.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	min-height: 300px;
@@ -816,7 +818,8 @@ div.indoor.wrap > h2 {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 50px;
-	color:#33485d;;
+	color:#33485d;
+	font-weight: 300;
 	width: 1000px;
 
 }
@@ -927,7 +930,7 @@ div.outdoor.wrap figure {
 	margin-right: auto;
 	margin-top: 0px;
 	margin-bottom: 50px;
-	background-image: url(../images/innner-page-header-backbround.jpg);
+	background-image: url(../images/5.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	min-height: 300px;
@@ -975,7 +978,8 @@ div.outdoor.wrap > h2 {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 50px;
-	color:#33485d;;
+	color:#33485d;
+	font-weight: 300;
 	width: 1000px;
 
 }
@@ -1273,7 +1277,8 @@ div.about.wrap > h2 {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 50px;
-	color:#33485d;;
+	color:#33485d;
+	font-weight: 300;
 	width: 1000px;
 
 }
