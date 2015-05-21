@@ -19,7 +19,7 @@
 					<p><cms:text constant="desc"/></p>
 				</figure>
 
-				<h2><cms:text constant="page_title"/></h2>
+				<h2><cms:text constant="title_showrooms"/></h2>
 
 				<cms:module
 					name="gallery"

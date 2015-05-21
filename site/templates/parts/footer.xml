@@ -26,7 +26,7 @@
 				/>
 		</div>
 
-		<div class="rights" >
+		<div class="rights" id="contact" >
 			<span><cms:text constant="copyright"/></span>
 		</div>
 

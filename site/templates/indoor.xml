@@ -16,10 +16,10 @@
 
 				<figure>
 					<h1><cms:text constant="indoor"/></h1>
-					<p><cms:text constant="desc"/></p>
+					<p><cms:text constant="title_indoor"/></p>
 				</figure>
 
-				<h2><cms:text constant="page_title"/></h2>
+				<h2><cms:text constant="desc_indoor"/></h2>
 
 				<cms:module
 					name="gallery"
