@@ -665,36 +665,42 @@ div.showrooms.wrap > h2 {
 
 div.showrooms.wrap div.group {
 	display: block;
+	text-align: left;
 	position: relative;
 }
 
+
 div.showrooms.wrap div.group > a {
-	display: block;
-	position: absolute;
-	margin-left: 15px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px;
+	margin-right: 20px;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	text-decoration: none;
 	width: 450px;
 	height: 300px;
-	top: 0px;
-	left: 0px;
 }
 
-div.showrooms.wrap div.group p:first-of-type {
-	display: block;
+div.showrooms.wrap div.group div.description {
+	display: inline-block;
+	vertical-align: top;
+
+
+}
+div.showrooms.wrap div.group div.description p:first-of-type {
+	display: inline-block;
+	vertical-align: top;
 	text-align: left;
 	padding-bottom: 15px;
-	padding-left: 500px;
 	font-size: 2em;
 
 }
 
-div.showrooms.wrap div.group p {
+div.showrooms.wrap div.group div.description p {
 	display: block;
 	text-align: left;
-	padding-left: 500px;
 }
 
 div.showrooms.wrap div.group div.container {
@@ -814,38 +820,45 @@ div.indoor.wrap > h2 {
 
 }
 
+
 div.indoor.wrap div.group {
 	display: block;
+	text-align: left;
 	position: relative;
 }
 
+
 div.indoor.wrap div.group > a {
-	display: block;
-	position: absolute;
-	margin-left: 15px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px;
+	margin-right: 20px;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	text-decoration: none;
 	width: 450px;
 	height: 300px;
-	top: 0px;
-	left: 0px;
 }
 
-div.indoor.wrap div.group p:first-of-type {
-	display: block;
+div.indoor.wrap div.group div.description {
+	display: inline-block;
+	vertical-align: top;
+
+
+}
+div.indoor.wrap div.group div.description p:first-of-type {
+	display: inline-block;
+	vertical-align: top;
 	text-align: left;
 	padding-bottom: 15px;
-	padding-left: 500px;
 	font-size: 2em;
 
 }
 
-div.indoor.wrap div.group p {
+div.indoor.wrap div.group div.description p {
 	display: block;
 	text-align: left;
-	padding-left: 500px;
 }
 
 div.indoor.wrap div.group div.container {
@@ -967,36 +980,42 @@ div.outdoor.wrap > h2 {
 
 div.outdoor.wrap div.group {
 	display: block;
+	text-align: left;
 	position: relative;
 }
 
+
 div.outdoor.wrap div.group > a {
-	display: block;
-	position: absolute;
-	margin-left: 15px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px;
+	margin-right: 20px;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	text-decoration: none;
 	width: 450px;
 	height: 300px;
-	top: 0px;
-	left: 0px;
 }
 
-div.outdoor.wrap div.group p:first-of-type {
-	display: block;
+div.outdoor.wrap div.group div.description {
+	display: inline-block;
+	vertical-align: top;
+
+
+}
+div.outdoor.wrap div.group div.description p:first-of-type {
+	display: inline-block;
+	vertical-align: top;
 	text-align: left;
 	padding-bottom: 15px;
-	padding-left: 500px;
 	font-size: 2em;
 
 }
 
-div.outdoor.wrap div.group p {
+div.outdoor.wrap div.group div.description p {
 	display: block;
 	text-align: left;
-	padding-left: 500px;
 }
 
 div.outdoor.wrap div.group div.container {
@@ -1249,36 +1268,42 @@ div.about.wrap > h2 {
 
 div.about.wrap div.group {
 	display: block;
+	text-align: left;
 	position: relative;
 }
 
+
 div.about.wrap div.group > a {
-	display: block;
-	position: absolute;
-	margin-left: 15px;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px;
+	margin-right: 20px;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	text-decoration: none;
 	width: 450px;
 	height: 300px;
-	top: 0px;
-	left: 0px;
 }
 
-div.about.wrap div.group p:first-of-type {
-	display: block;
+div.about.wrap div.group div.description {
+	display: inline-block;
+	vertical-align: top;
+
+
+}
+div.about.wrap div.group div.description p:first-of-type {
+	display: inline-block;
+	vertical-align: top;
 	text-align: left;
 	padding-bottom: 15px;
-	padding-left: 500px;
 	font-size: 2em;
 
 }
 
-div.about.wrap div.group p {
+div.about.wrap div.group div.description p {
 	display: block;
 	text-align: left;
-	padding-left: 500px;
 }
 
 div.about.wrap div.group div.container {
