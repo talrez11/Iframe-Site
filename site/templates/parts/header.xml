@@ -112,7 +112,7 @@
 			</div>
 
 			<nav class="mobile_menu">
-								<a
+				<a
 					class="$section == 'gallery' ? 'active' : false"
 					href="url_Make('', 'gallery')"
 					cms:eval="href"
