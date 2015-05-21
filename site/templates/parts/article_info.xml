@@ -12,7 +12,7 @@
 		<a
 			href="'tel:'.Language::getText('number')"
 			class="phone"
-			cms:eval="href,class"
+			cms:eval="href"
 			>
 			<cms:text constant="number"/>
 		</a>

@@ -25,7 +25,6 @@
 						action="show_image_list"
 						group="home_page_gallery"
 						template="parts/home_page_gallery_image.xml"
-						cms:eval="group"
 						/>
 				</cms:desktop>
 
@@ -36,7 +35,6 @@
 						group="home_page_gallery"
 						template="parts/home_page_gallery_image.xml"
 						random="1"
-						cms:eval="group"
 						/>
 				</cms:mobile>
 				</div>
@@ -76,7 +74,6 @@
 					action="show_image_list"
 					group="features"
 					template="parts/features.xml"
-					cms:eval="group"
 					/>
 			</div>
 
