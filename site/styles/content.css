@@ -216,13 +216,10 @@ div.header_form form fieldset legend {
 }
 
 div.header_form form fieldset label {
-	margin-left: 150px;
+	margin-left: 130px;
 }
 
-div.header_form form fieldset label select {
-	padding-left: 10px;
-	padding-right: 10px;
-}
+
 
 div.header_form form label.radio {
   display: inline-block;
@@ -1528,17 +1525,9 @@ div.header_form form label input {
 	width: 150px;
 }
 
-form fieldset label select{
-	margin-left: 120px;
-	padding-left: 10px;
-	padding-right: 10px;
-}
 
 div.header_form form fieldset label select {
-	margin-left: 0px;
 	margin-bottom: 10px;
-	padding-left: 10px;
-	padding-right: 10px;
 }
 
 div.home_gallery {
