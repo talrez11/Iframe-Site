@@ -28,15 +28,7 @@
 						/>
 				</cms:desktop>
 
-				<cms:mobile>
-					<cms:module
-						name="gallery"
-						action="show_image"
-						group="home_page_gallery"
-						template="parts/home_page_gallery_image.xml"
-						random="1"
-						/>
-				</cms:mobile>
+
 				</div>
 
 				<!-- <div class="btnControls">
