@@ -16,7 +16,7 @@
 
 				<figure>
 					<h1><cms:text constant="gallery"/></h1>
-					<p><cms:text constant="desc"/></p>
+					<p><cms:text constant="gallery_title"/></p>
 				</figure>
 
 				<cms:module

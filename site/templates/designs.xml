@@ -17,10 +17,10 @@
 
 				<figure>
 					<h1><cms:text constant="designs"/></h1>
-					<p><cms:text constant="designs_desc"/></p>
+					<p><cms:text constant="designs_title"/></p>
 				</figure>
 
-				<h2><cms:text constant="title_designs"/></h2>
+				<h2><cms:text constant="design_desc"/></h2>
 
 				<cms:module
 					name="gallery"
