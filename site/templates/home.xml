@@ -19,15 +19,28 @@
 				<a href="javascript:void(0)" class="btnPrevious"></a>
 
 				<div class="gallery_wrap">
-				<cms:desktop>
-					<cms:module
-						name="gallery"
-						action="show_image_list"
-						group="home_page_gallery"
-						template="parts/home_page_gallery_image.xml"
-						/>
+					<cms:desktop>
+						<cms:module
+							name="gallery"
+							action="show_image_list"
+							group="home_page_gallery"
+							template="parts/home_page_gallery_image.xml"
+							/>
 
-				</cms:desktop>
+					</cms:desktop>
+
+					<cms:mobile>
+						<cms:module
+							name="gallery"
+							action="show_image_list"
+							group="home_page_gallery"
+							template="parts/home_page_gallery_image.xml"
+							limit="1"
+							/>
+
+					</cms:mobile>
+
+
 
 
 				</div>
