@@ -22,7 +22,6 @@
 				action="show_image_list"
 				group_id="$params['id']"
 				template="parts/group_images.xml"
-				limit="4"
 				cms:eval="group_id"
 				/>
 		</div>
