@@ -183,6 +183,7 @@ div.header_form {
 	background-size:500px 500px;
 	/*Hanan Change*/
 	height:0px;
+	opacity: 0;
 }
 
 div.header_form > span {
