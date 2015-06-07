@@ -17,7 +17,7 @@
 	position: relative;
  }
 
-footer article.map_article {
+footer div.adress_maps {
 	display: inline-block;
 	vertical-align: top;
 	padding-left: 30px;
@@ -25,22 +25,25 @@ footer article.map_article {
 	width: calc(33.3% - 60px);
 }
 
-footer article.map_article h2 {
+footer div.adress_maps h2 {
 	display: block;
 	text-align: left;
 	text-transform: uppercase;
 	color:white;
 }
 
-footer article.map_article p {
-	padding-top: 10px;
-	padding-bottom:0px;
-}
-
-footer article.map_article p img {
+footer div.adress_maps a {
 	display: block;
+	margin-top: 10px;
 	width: 100%;
 }
+
+footer div.adress_maps a img {
+	width: 100%;
+	height: auto;
+}
+
+
 
 footer article.info_article {
 	display: inline-block;
