@@ -14,7 +14,7 @@ define('_STANDARD', 'html5');
 define('_TIMEZONE', 'America/New_York');
 
 define('DEBUG', 1);
-// define('SQL_DEBUG', 1);
+define('SQL_DEBUG', 1);
 
 // site language configuration
 $available_languages = array('en');
