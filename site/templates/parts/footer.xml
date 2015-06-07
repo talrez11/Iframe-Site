@@ -3,10 +3,10 @@
 <document>
 	<footer >
 		<cms:module
-			name="articles"
-			action="show"
-			text_id="map_article"
-			template="parts/article.xml"
+			name="gallery"
+			action="show_group"
+			text_id="adress_maps"
+			template="parts/group.xml"
 			/>
 
 		<cms:module
