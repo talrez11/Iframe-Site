@@ -2,7 +2,7 @@
 		<a href="$params['image']" class="image direct" cms:eval="href">
 			<img
 				alt="$params['title'][$language]"
-				src="$params['image']"
+				src="gallery::getThumbnailById($params['id'], null, 200, Thumbnail::CONSTRAIN_WIDTH)"
 				cms:eval="alt,src"
 				/>
 		</a>
