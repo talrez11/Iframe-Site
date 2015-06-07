@@ -1,0 +1,12 @@
+<document>
+		<div class="$params['text_id']" cms:eval="class">
+			<h2><cms:var param="name" multilanguage="yes"/></h2>
+			<cms:module
+				name="gallery"
+				action="show_image_list"
+				group="adress_maps"
+				template="parts/gallery_image2.xml"
+				/>
+		</div>
+
+</document>
