@@ -57,7 +57,7 @@ Site.on_load = function() {
 
 	}
 
-	Caracal.lightbox = new LightBox('footer img', false, false, true);
+	Caracal.lightbox = new LightBox('a.image.direct', false, false, true);
 
 
 	$('div.group').each(function() {
