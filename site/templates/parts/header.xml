@@ -90,7 +90,7 @@
 				class="phone"
 				cms:eval="href"
 				>
-				<cms:text constant="number"/>
+				<cms:text constant="number_link"/>
 			</a>
 		</header>
 	</cms:desktop>
