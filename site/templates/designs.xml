@@ -22,12 +22,19 @@
 
 				<h2><cms:text constant="design_desc"/></h2>
 
-				<cms:module
+				<!-- <cms:module
 					name="gallery"
 					action="show_group_list"
 					container="designs"
 					template="parts/design_groups.xml"
 					random="0"
+					/> -->
+
+				<cms:module
+					name="gallery"
+					action="show_container"
+					text_id="showrooms"
+					template="parts/container.xml"
 					/>
 
 			</div>
