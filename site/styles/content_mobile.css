@@ -1342,11 +1342,11 @@ div.portfolio.wrap div.group a:hover h3 {
 	position: relative;
  }
 
- footer article.map_article {
+ footer div.adress_maps {
 	display:block;
 }
 
-footer article.map_article h2 {
+footer div.adress_maps h2 {
 	display: block;
 	padding-top: 25px;
 	text-align: center;
@@ -1354,16 +1354,17 @@ footer article.map_article h2 {
 	color:white;
 }
 
-footer article.map_article p {
-	padding-top: 10px;
-	padding-bottom:0px;
-}
-
-footer article.map_article p img {
+footer div.adress_maps a {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 10px;
 	width: 95%;
+}
+
+footer div.adress_maps a img {
+	width: 100%;
+	height: auto;
 }
 
 footer article.info_article {
