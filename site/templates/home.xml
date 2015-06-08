@@ -32,8 +32,9 @@
 					<cms:mobile>
 						<cms:module
 							name="gallery"
-							action="show_image_list"
+							action="show_image"
 							group="home_page_gallery"
+							text_id="mobile_image"
 							template="parts/home_page_gallery_image.xml"
 							limit="1"
 							/>
