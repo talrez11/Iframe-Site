@@ -1327,6 +1327,119 @@ div.portfolio.wrap div.group a:hover h3 {
 	color:#11b260;
 }
 
+/*Design_groups Page*/
+
+div.design_groups.wrap  {
+	padding-bottom: 0px;
+}
+
+div.design_groups.wrap  figure {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 77px;
+	margin-bottom: 30px;
+	background-image: url(../images/innner-page-header-backbround.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: auto 120px;
+	position: relative;
+	min-height: 120px;
+}
+
+div.design_groups.wrap  figure:before {
+	content: "";
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	margin-left: -170px;
+	border-bottom: 50px solid rgb(0, 0, 0);
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	-webkit-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
+	-moz-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
+	-o-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
+	filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
+	height: 0;
+	width: 130px;
+	z-index: -1;
+}
+
+
+div.design_groups.wrap figure h1 {
+	display: block;
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 25px;
+	color: white;
+	font-weight: 100;
+	font-size: 3em;
+}
+
+div.design_groups.wrap figure p {
+	display: block;
+	text-align: left;
+	padding-left: 35px;
+	color: white;
+	font-size: 1em;
+}
+
+div.design_groups.wrap > h2 {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 20px;
+	font-size: 1.3em;
+	color: #33485d;
+}
+
+div.design_groups.wrap a {
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	margin-bottom: 180px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	text-decoration: none;
+	width: 250px;
+	height: 250px;
+	position: relative;
+}
+
+div.design_groups.wrap a:before {
+	content: "";
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 250px;
+	height: 250px;
+	background-color: white;
+	opacity: 0;
+	transition:all 0.3s;
+}
+
+div.design_groups.wrap a:hover:before {
+	opacity: 0.3;
+}
+
+
+div.design_groups.wrap a h3 {
+	display: block;
+	padding-top: 260px;
+	padding-bottom: 10px;
+	color: #33485d;
+	font-weight: 300;
+	transition:all 0.3s;
+}
+
+div.gallery.wrap a:hover h3 {
+	color:#11b260;
+}
+
 
 
 
