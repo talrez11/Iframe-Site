@@ -10,6 +10,9 @@
 	<section name="designs">
 		<language name="all" file="designs.xml" />
 	</section>
+	<section name="design_groups">
+		<language name="all" file="design_groups.xml"/>
+	</section>
 	<section name="showrooms">
 		<language name="all" file="showrooms.xml" />
 	</section>
