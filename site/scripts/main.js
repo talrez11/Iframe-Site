@@ -77,8 +77,7 @@ Site.on_load = function() {
 		.controls.attach_next('a.btnNext')
 		.controls.attach_previous('a.btnPrevious');
 
+
 }
-
-
 // connect document `load` event with handler function
 $(Site.on_load);
