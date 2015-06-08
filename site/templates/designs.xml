@@ -10,7 +10,7 @@
 
 		</head>
 
-		<body >
+		<body>
 			<cms:template file="parts/header.xml"/>
 
 			<div class="$section == 'designs' ? 'designs wrap' : false" cms:optional="class">
@@ -22,18 +22,45 @@
 
 				<h2><cms:text constant="design_desc"/></h2>
 
-				<!-- <cms:module
+				<cms:module
 					name="gallery"
-					action="show_group_list"
-					container="designs"
-					template="parts/design_groups.xml"
-					random="0"
-					/> -->
+					action="show_container"
+					text_id="classic_series"
+					template="parts/container.xml"
+					/>
 
 				<cms:module
 					name="gallery"
 					action="show_container"
-					text_id="outdoor"
+					text_id="familia_series"
+					template="parts/container.xml"
+					/>
+
+				<cms:module
+					name="gallery"
+					action="show_container"
+					text_id="lifestyle_series"
+					template="parts/container.xml"
+					/>
+
+				<cms:module
+					name="gallery"
+					action="show_container"
+					text_id="motorized_series"
+					template="parts/container.xml"
+					/>
+
+				<cms:module
+					name="gallery"
+					action="show_container"
+					text_id="motorized_series"
+					template="parts/container.xml"
+					/>
+
+				<cms:module
+					name="gallery"
+					action="show_container"
+					text_id="specialty_series"
 					template="parts/container.xml"
 					/>
 			</div>
