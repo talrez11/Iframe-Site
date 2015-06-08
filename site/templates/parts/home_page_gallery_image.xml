@@ -2,6 +2,7 @@
 
 	<figure data-image="$params['title'][$language]" cms:eval="data-image">
 		<img
+			alt="$params['title'][$language]"
 			src="$params['image']"
 			class="image"
 			cms:eval="src"
