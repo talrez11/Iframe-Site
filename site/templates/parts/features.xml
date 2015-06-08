@@ -1,5 +1,5 @@
 <document>
-	<a  href="url_Make($section,$params['text_id'])" cms:eval="href">
+	<a  href="url_Make('',$params['text_id'])" cms:eval="href">
 		<h2><cms:var name="$params['title'][$language]"/></h2>
 		<cms:markdown param="description" multilanguage="yes"/>
 		<img
