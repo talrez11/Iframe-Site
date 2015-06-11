@@ -1,5 +1,4 @@
 <document>
-
 		<a
 			href="url_Make($section,'portfolio',array('id',$params['id']),array('name',$params['name'][$language]))"
 			data-gallery="$params['id']"
