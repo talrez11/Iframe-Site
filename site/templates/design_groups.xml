@@ -18,7 +18,7 @@
 					<h1></h1>
 					<p></p>
 				</figure>
-
+				<h2><cms:var name="$params['name'][$language]"/></h2>
 				<cms:module
 					name="gallery"
 					action="show_group_list"
