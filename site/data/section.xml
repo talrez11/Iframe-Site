@@ -10,8 +10,8 @@
 	<section name="designs">
 		<language name="all" file="designs.xml" />
 	</section>
-	<section name="design_groups">
-		<language name="all" file="design_groups.xml"/>
+	<section name="design-groups">
+		<language name="all" file="design-groups.xml"/>
 	</section>
 	<section name="showrooms">
 		<language name="all" file="showrooms.xml" />
@@ -25,8 +25,8 @@
 	<section name="outdoor">
 		<language name="all" file="outdoor.xml" />
 	</section>
-	<section name="about_us">
-		<language name="all" file="about_us.xml" />
+	<section name="about-us">
+		<language name="all" file="about-us.xml" />
 	</section>
 	<section name="portfolio">
 		<language name="all" file="portfolio.xml" />
