@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../units/schema/template.dtd">
+<document>
+	<cms:var name="_DOCTYPE"/>
+	<html lang="$language" cms:eval="lang">
+		<head>
+			<title><cms:text constant="site_title"/><cms:raw text=" - "/><cms:text constant="menu_about_us"/></title>
+			<cms:collection include="page_control,animation_chain"/>
+			<cms:module name="head_tag" action="print_tag"/>
+		</head>
+
+		<body>
+			<cms:template file="parts/header.xml"/>
+
+			<div class="$section == 'about-us' ? 'about wrap' : false" cms:optional="class">
+
+				<figure>
+					<h1><cms:text constant="about"/></h1>
+					<p><cms:text constant="about_title"/></p>
+				</figure>
+
+				<h2><cms:text constant="about_desc"/></h2>
+
+				<cms:module
+					name="gallery"
+					action="show_group_list"
+					container="about"
+					template="parts/groups.xml"
+					/>
+
+				<cms:module
+					name="articles"
+					action="show_group"
+					text_id="feature_articles"
+					template="parts/show_articles.xml"
+
+				/>
+
+			</div>
+
+			<cms:template file="parts/footer.xml"/>
+		</body>
+	</html>
+</document>

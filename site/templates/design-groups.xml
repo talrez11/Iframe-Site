@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "../units/schema/template.dtd">
+<document>
+	<cms:var name="_DOCTYPE"/>
+	<html lang="$language" cms:eval="lang">
+		<head>
+			<title><cms:text constant="site_title"/><cms:raw text=" - "/><cms:text constant="design-groups"/></title>
+			<cms:collection include="page_control,animation_chain"/>
+			<cms:module name="head_tag" action="print_tag"/>
+		</head>
+
+		<body>
+			<cms:template file="parts/header.xml"/>
+
+			<div class="$section == 'design-groups' ? 'design-groups wrap' : false" cms:optional="class">
+
+				<figure>
+					<h1></h1>
+					<p></p>
+				</figure>
+				<h2><cms:var name="$params['name'][$language]"/></h2>
+				<cms:module
+					name="gallery"
+					action="show_group_list"
+					container_id="fix_id($_REQUEST['id'])"
+					template="parts/gallery_image3.xml"
+					cms:eval="container_id"
+					/>
+
+			</div>
+
+			<cms:template file="parts/footer.xml"/>
+
+		</body>
+	</html>
+</document>
