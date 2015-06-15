@@ -1384,7 +1384,8 @@ div.about.wrap div.group div.container a:hover h3 {
 
 
 div.about.wrap article {
-	display: inline-block;
+	/*display: inline-block;*/
+	display: none;
 	vertical-align: top;
 	margin-bottom: 50px;
 	padding-left: 110px;
