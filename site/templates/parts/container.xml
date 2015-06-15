@@ -1,7 +1,7 @@
 <document>
 
 		<a
-			href="url_Make($section,'design-groups',array('id',$params['id']),array('name',$params['name'][$language]))"
+			href="url_Make('category',$section,array('id',$params['id']))"
 			style="'background-image: url('.gallery::getContainerThumbnailById($params['id'],null, 250, Thumbnail::CONSTRAIN_WIDTH).');'"
 			data_id="$params['id']"
 			cms:eval="data_id,href,style"

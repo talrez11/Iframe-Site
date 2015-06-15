@@ -12,7 +12,7 @@
 		<body>
 			<cms:template file="parts/header.xml"/>
 
-			<div class="$section == 'design-groups' ? 'design-groups wrap' : false" cms:optional="class">
+			<div class="$action == 'category' ? 'group wrap' : false" cms:optional="class">
 
 				<figure>
 					<h1></h1>
