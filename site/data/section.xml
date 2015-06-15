@@ -5,13 +5,17 @@
 		<language name="all" file="home.xml" />
 	</section>
 	<section name="gallery">
-		<language name="all" file="gallery.xml" />
+		<language name="all">
+	        <action name="_default" file="gallery.xml"/>
+	        <action name="view" file="view-gallery.xml"/>
+    	</language>
 	</section>
 	<section name="designs">
-		<language name="all" file="designs.xml" />
-	</section>
-	<section name="design-groups">
-		<language name="all" file="design-groups.xml"/>
+		<language name="all">
+	        <action name="_default" file="designs.xml"/>
+	        <action name="category" file="design-groups.xml"/>
+	        <action name="view" file="view-gallery.xml"/>
+    	</language>
 	</section>
 	<section name="showrooms">
 		<language name="all" file="showrooms.xml" />
