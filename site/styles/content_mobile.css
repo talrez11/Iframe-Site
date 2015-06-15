@@ -1261,18 +1261,18 @@ div.about.wrap article p {
 
 /*Portfolio*/
 
-div.portfolio.wrap {
+div.view.wrap {
 	margin-top: 77px;
 	padding-bottom: 0px;
 }
 
-div.portfolio.wrap div.group {
+div.view.wrap div.group {
 	display: block;
 	text-align: center;
 	margin-bottom: 50px;
 }
 
-div.portfolio.wrap div.group p {
+div.view.wrap div.group p {
 	display: block;
 	padding-top: 20px;
 	margin-left: auto;
@@ -1282,7 +1282,7 @@ div.portfolio.wrap div.group p {
 	font-size: 2em;
 }
 
-div.portfolio.wrap div.group a {
+div.view.wrap div.group a {
 	display: inline-block;
 	vertical-align: top;
 	margin-left: 5px;
@@ -1298,7 +1298,7 @@ div.portfolio.wrap div.group a {
 	position: relative;
 }
 
-div.portfolio.wrap div.group a:before {
+div.view.wrap div.group a:before {
 	content: "";
 	position: absolute;
 	top: 0px;
@@ -1310,11 +1310,11 @@ div.portfolio.wrap div.group a:before {
 	transition:all 0.3s;
 }
 
-div.portfolio.wrap div.group a:hover:before {
+div.view.wrap div.group a:hover:before {
 	opacity: 0.3;
 }
 
-div.portfolio.wrap div.group a h3 {
+div.view.wrap div.group a h3 {
 	display: block;
 	padding-top: 105px;
 	padding-bottom: 10px;
@@ -1323,7 +1323,7 @@ div.portfolio.wrap div.group a h3 {
 	transition: all 0.3s;
 }
 
-div.portfolio.wrap div.group a:hover h3 {
+div.view.wrap div.group a:hover h3 {
 	color:#11b260;
 }
 
