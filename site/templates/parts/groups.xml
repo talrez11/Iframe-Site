@@ -2,15 +2,22 @@
 	<div class="group"  data-id="$params['id']" cms:eval="data-id">
 		<cms:mobile>
 			<cms:markdown param="name" multilanguage="yes"/>
+			<a
+			href="$params['image']"
+			class="image"
+			style="'background-image: url('.gallery::getThumbnailById($params['thumbnail'],null, 250, Thumbnail::CONSTRAIN_WIDTH).');'"
+			cms:eval="style,href"
+		/>
+			<cms:markdown param="description" multilanguage="yes"/>
 		</cms:mobile>
+
+		<cms:desktop>
 		<a
 			href="$params['image']"
 			class="image"
 			style="'background-image: url('.gallery::getThumbnailById($params['thumbnail'],null, 250, Thumbnail::CONSTRAIN_WIDTH).');'"
 			cms:eval="style,href"
 		/>
-		<cms:desktop>
-
 		<div class="description">
 			<cms:markdown param="name" multilanguage="yes"/>
 			<cms:markdown param="description" multilanguage="yes"/>
