@@ -1418,17 +1418,17 @@ div.about.wrap article p {
 
 /*Portfolio*/
 
-div.portfolio.wrap {
+div.view.wrap {
 	padding-bottom: 0px;
 }
 
-div.portfolio.wrap div.group {
+div.view.wrap div.group {
 	display: block;
 	text-align: center;
 	margin-bottom: 50px;
 }
 
-div.portfolio.wrap div.group p {
+div.view.wrap div.group p {
 	display: block;
 	padding-top: 50px;
 	margin-left: auto;
@@ -1439,7 +1439,7 @@ div.portfolio.wrap div.group p {
 	font-size: 2em;
 }
 
-div.portfolio.wrap div.group a {
+div.view.wrap div.group a {
 	display: inline-block;
 	vertical-align: top;
 	margin-left: 20px;
@@ -1455,7 +1455,7 @@ div.portfolio.wrap div.group a {
 	position: relative;
 }
 
-div.portfolio.wrap div.group a:before {
+div.view.wrap div.group a:before {
 	content: "";
 	position: absolute;
 	top: 0px;
@@ -1467,11 +1467,11 @@ div.portfolio.wrap div.group a:before {
 	transition:all 0.3s;
 }
 
-div.portfolio.wrap div.group a:hover:before {
+div.view.wrap div.group a:hover:before {
 	opacity: 0.3;
 }
 
-div.portfolio.wrap div.group a h3 {
+div.view.wrap div.group a h3 {
 	display: block;
 	padding-top: 205px;
 	padding-bottom: 10px;
@@ -1480,17 +1480,17 @@ div.portfolio.wrap div.group a h3 {
 	transition: all 0.3s;
 }
 
-div.portfolio.wrap div.group a:hover h3 {
+div.view.wrap div.group a:hover h3 {
 	color:#11b260;
 }
 
 /*Design Groups Page*/
 
-div.design-groups.wrap {
+div.group.wrap {
 	padding-bottom:50px;
 }
 
-div.design-groups.wrap figure {
+div.group.wrap figure {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -1504,7 +1504,7 @@ div.design-groups.wrap figure {
 	position: relative;
 }
 
-div.design-groups.wrap figure h1 {
+div.group.wrap figure h1 {
 	display: block;
 	text-align: left;
 	padding-top: 70px;
@@ -1514,7 +1514,7 @@ div.design-groups.wrap figure h1 {
 	font-size: 6em;
 }
 
-div.design-groups.wrap figure p {
+div.group.wrap figure p {
 	display: block;
 	text-align: left;
 	padding-left: 100px;
@@ -1522,7 +1522,7 @@ div.design-groups.wrap figure p {
 	font-size: 1.4em;
 }
 
-div.design-groups.wrap > h2 {
+div.group.wrap > h2 {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -1532,7 +1532,7 @@ div.design-groups.wrap > h2 {
 
 }
 
-div.design-groups.wrap figure:before {
+div.group.wrap figure:before {
 	content: "";
 	position: absolute;
 	bottom: 0;
@@ -1550,7 +1550,7 @@ div.design-groups.wrap figure:before {
 	z-index: -1;
 }
 
-div.design-groups.wrap a {
+div.group.wrap a {
 	display: inline-block;
 	vertical-align: top;
 	margin-left: 15px;
@@ -1566,7 +1566,7 @@ div.design-groups.wrap a {
 	position: relative;
 }
 
-div.design-groups.wrap a:before {
+div.group.wrap a:before {
 	content: "";
 	position: absolute;
 	top: 0px;
@@ -1578,12 +1578,12 @@ div.design-groups.wrap a:before {
 	transition:all 0.3s;
 }
 
-div.design-groups.wrap a:hover:before {
+div.group.wrap a:hover:before {
 	opacity: 0.3;
 }
 
 
-div.design-groups.wrap a h3 {
+div.group.wrap a h3 {
 	display: block;
 	padding-top: 260px;
 	padding-bottom: 10px;
@@ -1592,13 +1592,13 @@ div.design-groups.wrap a h3 {
 	transition:all 0.3s;
 }
 
-div.design-groups.wrap a p {
+div.group.wrap a p {
 	display: block;
 	color:#7e8b8c;
 	transition:all 0.3s;
 }
 
-div.design-groups.wrap a:hover p , div.gallery.wrap a:hover h3 {
+div.group.wrap a:hover p , div.gallery.wrap a:hover h3 {
 	color:#11b260;
 }
 
@@ -1733,13 +1733,13 @@ div.gallery.wrap figure {
   position: relative;
 }
 
-div.design-groups.wrap figure:before {
+div.group.wrap figure:before {
 	width: 700px;
 	margin-left: -450px;
 	bottom:15px;
 }
 
-div.design-groups.wrap figure {
+div.group.wrap figure {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -1952,7 +1952,7 @@ div.about.wrap div.group div.container a {
 	margin-bottom: 50px;
 }
 
-div.portfolio.wrap div.group p {
+div.view.wrap div.group p {
 	width: 900px;
 }
 
