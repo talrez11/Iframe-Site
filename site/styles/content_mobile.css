@@ -1225,7 +1225,8 @@ div.about.wrap div.group div.container a:hover h3 {
 }
 
 div.about.wrap article {
-	display:block;
+	/*display:block;*/
+	display: none;
 	margin-bottom: 25px;
 	padding-top: 110px;
 	text-align: center;
