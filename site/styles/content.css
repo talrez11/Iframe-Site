@@ -18,6 +18,39 @@ h1,h2,h3,h4,h5,h6,p {
 	padding:0px calc((100vw - 1200px) / 2);
 }
 
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 /*
 	HOME PAGE
 */
@@ -432,10 +465,16 @@ div.gallery.wrap figure:before {
 	-moz-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
 	-o-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
 	filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
+	animation: fadein 0.4s;
+	-moz-animation: fadein 0.4s; /* Firefox */
+	-webkit-animation: fadein 0.4s; /* Safari and Chrome */
+	-o-animation: fadein 0.4s; /* Opera */
 	height: 0;
 	width: 900px;
 	z-index: -1;
 }
+
+
 
 div.gallery.wrap a {
 	display: inline-block;
@@ -522,6 +561,10 @@ div.designs.wrap figure:before {
 	-moz-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
 	-o-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
 	filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
+	animation: fadein 0.4s;
+	-moz-animation: fadein 0.4s; /* Firefox */
+	-webkit-animation: fadein 0.4s; /* Safari and Chrome */
+	-o-animation: fadein 0.4s; /* Opera */
 	height: 0;
 	width: 900px;
 	z-index: -1;
@@ -637,6 +680,10 @@ div.showrooms.wrap figure:before {
 	-moz-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
 	-o-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
 	filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
+	animation: fadein 0.4s;
+	-moz-animation: fadein 0.4s; /* Firefox */
+	-webkit-animation: fadein 0.4s; /* Safari and Chrome */
+	-o-animation: fadein 0.4s; /* Opera */
 	height: 0;
 	width: 900px;
 	z-index: -1;
@@ -797,6 +844,10 @@ div.indoor.wrap figure:before {
 	-moz-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
 	-o-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
 	filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
+	animation: fadein 0.4s;
+	-moz-animation: fadein 0.4s; /* Firefox */
+	-webkit-animation: fadein 0.4s; /* Safari and Chrome */
+	-o-animation: fadein 0.4s; /* Opera */
 	height: 0;
 	width: 900px;
 	z-index: -1;
@@ -957,6 +1008,10 @@ div.outdoor.wrap figure:before {
 	-moz-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
 	-o-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
 	filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
+	animation: fadein 0.4s;
+	-moz-animation: fadein 0.4s; /* Firefox */
+	-webkit-animation: fadein 0.4s; /* Safari and Chrome */
+	-o-animation: fadein 0.4s; /* Opera */
 	height: 0;
 	width: 900px;
 	z-index: -1;
@@ -1119,6 +1174,10 @@ div.kitchen.wrap figure:before {
 	-moz-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
 	-o-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
 	filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
+	animation: fadein 0.4s;
+	-moz-animation: fadein 0.4s; /* Firefox */
+	-webkit-animation: fadein 0.4s; /* Safari and Chrome */
+	-o-animation: fadein 0.4s; /* Opera */
 	height: 0;
 	width: 900px;
 	z-index: -1;
@@ -1255,6 +1314,10 @@ div.about.wrap figure:before {
 	-moz-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
 	-o-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
 	filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
+	animation: fadein 0.4s;
+	-moz-animation: fadein 0.4s; /* Firefox */
+	-webkit-animation: fadein 0.4s; /* Safari and Chrome */
+	-o-animation: fadein 0.4s; /* Opera */
 	height: 0;
 	width: 900px;
 	z-index: -1;
@@ -1546,6 +1609,10 @@ div.group.wrap figure:before {
 	-moz-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
 	-o-filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
 	filter: drop-shadow(0px 31px 14px rgba(0, 0, 0, .9));
+	animation: fadein 0.4s;
+	-moz-animation: fadein 0.4s; /* Firefox */
+	-webkit-animation: fadein 0.4s; /* Safari and Chrome */
+	-o-animation: fadein 0.4s; /* Opera */
 	height: 0;
 	width: 900px;
 	z-index: -1;
