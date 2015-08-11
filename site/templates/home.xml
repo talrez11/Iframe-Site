@@ -76,7 +76,6 @@
 			</cms:mobile>
 
 			<div class="features">
-				<h2></h2>
 				<cms:module
 					name="gallery"
 					action="show_image_list"
