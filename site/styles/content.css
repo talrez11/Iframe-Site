@@ -403,6 +403,12 @@ div.features a img {
 	width: 350px;
 }
 
+div.links {
+	display: block;
+	text-align: left;
+ 	padding:50px calc((100vw - 1200px) / 2);	
+}
+
 
 /*Gallery Page*/
 
