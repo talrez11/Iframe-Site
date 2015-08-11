@@ -407,14 +407,14 @@ div.features a img {
 
 div.links {
 	display: block;
-	text-align: left;
- 	padding:50px calc((100vw - 1200px) / 2);	
+	text-align: center;
+ 	padding:20px calc((100vw - 1200px) / 2);	
 }
 
 div.links h2 {
     display: block;
     padding-bottom: 20px;
-    text-align: left;
+    text-align: center;
     text-transform: uppercase;
     color: #33485d;
 }
