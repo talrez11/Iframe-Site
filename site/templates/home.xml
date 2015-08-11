@@ -76,11 +76,21 @@
 			</cms:mobile>
 
 			<div class="features">
+				<h2></h2>
 				<cms:module
 					name="gallery"
 					action="show_image_list"
 					group="features"
 					template="parts/features.xml"
+					/>
+			</div>
+
+			<div class="links">
+				<h2><cms:text constant="media_links"/></h2>
+				<cms:module
+					name="links"
+					action="show_link_list"
+					template="parts/links_template.xml"
 					/>
 			</div>
 
