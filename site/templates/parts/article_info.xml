@@ -5,10 +5,10 @@
 		<h2><cms:var name="$params['title'][$language]"/></h2>
 		<cms:markdown param="content" multilanguage="yes"/>
 		<h3><cms:text constant="social"/></h3>
-		<a href="" class="social"><cms:raw file="../images/footer/facebook.svg"/></a>
+		<a href="https://www.facebook.com/HiframeUSA" class="social"><cms:raw file="../images/footer/facebook.svg"/></a>
 		<a href="" class="social"><cms:raw file="../images/footer/google.svg"/></a>
 		<a href="" class="social"><cms:raw file="../images/footer/linkedin.svg"/></a>
-		<a href="" class="social"><cms:raw file="../images/footer/twitter.svg"/></a>
+		<a href="https://twitter.com/HiframeUSA" class="social"><cms:raw file="../images/footer/twitter.svg"/></a>
 		<a
 			href="'tel:'.Language::getText('number')"
 			class="phone"
