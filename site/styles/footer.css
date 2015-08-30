@@ -78,6 +78,10 @@ footer article.info_article p {
 	color:white;
 }
 
+footer article.info_article p a {
+	color:white;
+}
+
 a.social {
 	display: inline-block;
 	vertical-align: top;
