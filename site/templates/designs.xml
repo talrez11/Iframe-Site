@@ -53,7 +53,7 @@
 				<cms:module
 					name="gallery"
 					action="show_container"
-					text_id="motorized_series"
+					text_id="commercial"
 					template="parts/container.xml"
 					/>
 
