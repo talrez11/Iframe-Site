@@ -460,7 +460,10 @@ div.gallery.wrap figure h1 {
 	color:white;
 	font-weight: 100;
 	font-size: 6em;
+	position: relative;
+	background-color: rgba(0, 0, 0, 0.5);	
 }
+
 
 div.gallery.wrap figure p {
 	display: block;
@@ -605,6 +608,7 @@ div.designs.wrap figure h1 {
 	color:white;
 	font-weight: 100;
 	font-size: 6em;
+	background-color: rgba(0, 0, 0, 0.5);		
 }
 
 div.designs.wrap figure p {
@@ -725,6 +729,7 @@ div.showrooms.wrap figure h1 {
 	color:white;
 	font-weight: 100;
 	font-size: 6em;
+	background-color: rgba(0, 0, 0, 0.5);		
 }
 
 div.showrooms.wrap figure p {
@@ -889,6 +894,7 @@ div.indoor.wrap figure h1 {
 	color:white;
 	font-weight: 100;
 	font-size: 6em;
+	background-color: rgba(0, 0, 0, 0.5);		
 }
 
 div.indoor.wrap figure p {
@@ -1015,7 +1021,7 @@ div.outdoor.wrap figure {
 	margin-right: auto;
 	margin-top: 0px;
 	margin-bottom: 50px;
-	background-image: url(../images/5.jpg);
+	background-image: url(../images/outdoor.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	min-height: 300px;
@@ -1053,6 +1059,7 @@ div.outdoor.wrap figure h1 {
 	color:white;
 	font-weight: 100;
 	font-size: 6em;
+	background-color: rgba(0, 0, 0, 0.5);		
 }
 
 div.outdoor.wrap figure p {
@@ -1181,7 +1188,7 @@ div.kitchen.wrap figure {
 	margin-right: auto;
 	margin-top: 0px;
 	margin-bottom: 50px;
-	background-image: url(../images/innner-page-header-backbround.jpg);
+	background-image: url(../images/kitchen-bath.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	min-height: 300px;
@@ -1219,6 +1226,8 @@ div.kitchen.wrap figure h1 {
 	color:white;
 	font-weight: 100;
 	font-size: 6em;
+	background-color: rgba(0, 0, 0, 0.5);		
+
 }
 
 div.kitchen.wrap figure p {
@@ -1359,6 +1368,7 @@ div.about.wrap figure h1 {
 	color:white;
 	font-weight: 100;
 	font-size: 6em;
+	background-color: rgba(0, 0, 0, 0.5);		
 }
 
 div.about.wrap figure p {
@@ -1608,6 +1618,7 @@ div.group.wrap figure h1 {
 	color:white;
 	font-weight: 100;
 	font-size: 6em;
+	background-color: rgba(0, 0, 0, 0.5);		
 }
 
 div.group.wrap figure p {
