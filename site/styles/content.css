@@ -20,7 +20,7 @@ h1,h2,h3,h4,h5,h6,p {
 
 @keyframes fadein {
     from {
-        opacity:0;
+        opacity:0;display: block;
     }
     to {
         opacity:1;
@@ -153,8 +153,8 @@ div.home_gallery div.gallery_wrap figure.transit {
 	transition:none;
 }
 
-
-div.home_gallery div.gallery_wrap figure:after {
+/*Showing home page image title box*/
+/*div.home_gallery div.gallery_wrap figure:after {
 	content: attr(data-image);
 	display: block;
 	text-align: center;
@@ -168,7 +168,7 @@ div.home_gallery div.gallery_wrap figure:after {
 	color: white;
 	font-size: 2.4em;
 	font-weight: 700;
-}
+}*/
 
 
 div.home_gallery div.gallery_wrap figure img {
@@ -1321,7 +1321,7 @@ div.about.wrap figure {
 	margin-right: auto;
 	margin-top: 0px;
 	margin-bottom: 50px;
-	background-image: url(../images/innner-page-header-backbround.jpg);
+	background-image: url(../images/3.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	min-height: 300px;
